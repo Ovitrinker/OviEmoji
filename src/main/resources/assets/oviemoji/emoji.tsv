@@ -1,0 +1,1871 @@
+# codepunkt	unicode	kategorie	kurznamen	stichwoerter
+E000	1F600	smileys	grinning	smile,happy
+E001	1F603	smileys	smiley	happy,joy,haha
+E002	1F604	smileys	smile	happy,joy,laugh,pleased
+E003	1F601	smileys	grin	
+E004	1F606	smileys	laughing,satisfied	happy,haha
+E005	1F605	smileys	sweat_smile	hot
+E006	1F923	smileys	rofl	lol,laughing
+E007	1F602	smileys	joy	tears
+E008	1F642	smileys	slightly_smiling_face	
+E009	1F643	smileys	upside_down_face	
+E00A	1FAE0	smileys	melting_face	sarcasm,dread
+E00B	1F609	smileys	wink	flirt
+E00C	1F60A	smileys	blush	proud
+E00D	1F607	smileys	innocent	angel
+E00E	1F970	smileys	smiling_face_with_three_hearts	love
+E00F	1F60D	smileys	heart_eyes	love,crush
+E010	1F929	smileys	star_struck	eyes
+E011	1F618	smileys	kissing_heart	flirt
+E012	1F617	smileys	kissing	
+E013	263A FE0F	smileys	relaxed	blush,pleased
+E014	1F61A	smileys	kissing_closed_eyes	
+E015	1F619	smileys	kissing_smiling_eyes	
+E016	1F972	smileys	smiling_face_with_tear	
+E017	1F60B	smileys	yum	tongue,lick
+E018	1F61B	smileys	stuck_out_tongue	
+E019	1F61C	smileys	stuck_out_tongue_winking_eye	prank,silly
+E01A	1F92A	smileys	zany_face	goofy,wacky
+E01B	1F61D	smileys	stuck_out_tongue_closed_eyes	prank
+E01C	1F911	smileys	money_mouth_face	rich
+E01D	1F917	smileys	hugs	
+E01E	1F92D	smileys	hand_over_mouth	quiet,whoops
+E01F	1FAE2	smileys	face_with_open_eyes_and_hand_over_mouth	gasp,shock
+E020	1FAE3	smileys	face_with_peeking_eye	
+E021	1F92B	smileys	shushing_face	silence,quiet
+E022	1F914	smileys	thinking	
+E023	1FAE1	smileys	saluting_face	respect
+E024	1F910	smileys	zipper_mouth_face	silence,hush
+E025	1F928	smileys	raised_eyebrow	suspicious
+E026	1F610	smileys	neutral_face	meh
+E027	1F611	smileys	expressionless	
+E028	1F636	smileys	no_mouth	mute,silence
+E029	1FAE5	smileys	dotted_line_face	invisible
+E02A	1F636 200D 1F32B FE0F	smileys	face_in_clouds	
+E02B	1F60F	smileys	smirk	smug
+E02C	1F612	smileys	unamused	meh
+E02D	1F644	smileys	roll_eyes	
+E02E	1F62C	smileys	grimacing	
+E02F	1F62E 200D 1F4A8	smileys	face_exhaling	
+E030	1F925	smileys	lying_face	liar
+E031	1FAE8	smileys	shaking_face	shock
+E032	1F60C	smileys	relieved	whew
+E033	1F614	smileys	pensive	
+E034	1F62A	smileys	sleepy	tired
+E035	1F924	smileys	drooling_face	
+E036	1F634	smileys	sleeping	zzz
+E037	1F637	smileys	mask	sick,ill
+E038	1F912	smileys	face_with_thermometer	sick
+E039	1F915	smileys	face_with_head_bandage	hurt
+E03A	1F922	smileys	nauseated_face	sick,barf,disgusted
+E03B	1F92E	smileys	vomiting_face	barf,sick
+E03C	1F927	smileys	sneezing_face	achoo,sick
+E03D	1F975	smileys	hot_face	heat,sweating
+E03E	1F976	smileys	cold_face	freezing,ice
+E03F	1F974	smileys	woozy_face	groggy
+E040	1F635	smileys	dizzy_face	
+E041	1F635 200D 1F4AB	smileys	face_with_spiral_eyes	
+E042	1F92F	smileys	exploding_head	mind,blown
+E043	1F920	smileys	cowboy_hat_face	
+E044	1F973	smileys	partying_face	celebration,birthday
+E045	1F978	smileys	disguised_face	
+E046	1F60E	smileys	sunglasses	cool
+E047	1F913	smileys	nerd_face	geek,glasses
+E048	1F9D0	smileys	monocle_face	
+E049	1F615	smileys	confused	
+E04A	1FAE4	smileys	face_with_diagonal_mouth	confused
+E04B	1F61F	smileys	worried	nervous
+E04C	1F641	smileys	slightly_frowning_face	
+E04D	2639 FE0F	smileys	frowning_face	
+E04E	1F62E	smileys	open_mouth	surprise,impressed,wow
+E04F	1F62F	smileys	hushed	silence,speechless
+E050	1F632	smileys	astonished	amazed,gasp
+E051	1F633	smileys	flushed	
+E052	1F97A	smileys	pleading_face	puppy,eyes
+E053	1F979	smileys	face_holding_back_tears	tears,gratitude
+E054	1F626	smileys	frowning	
+E055	1F627	smileys	anguished	stunned
+E056	1F628	smileys	fearful	scared,shocked,oops
+E057	1F630	smileys	cold_sweat	nervous
+E058	1F625	smileys	disappointed_relieved	phew,sweat,nervous
+E059	1F622	smileys	cry	sad,tear
+E05A	1F62D	smileys	sob	sad,cry,bawling
+E05B	1F631	smileys	scream	horror,shocked
+E05C	1F616	smileys	confounded	
+E05D	1F623	smileys	persevere	struggling
+E05E	1F61E	smileys	disappointed	sad
+E05F	1F613	smileys	sweat	
+E060	1F629	smileys	weary	tired
+E061	1F62B	smileys	tired_face	upset,whine
+E062	1F971	smileys	yawning_face	
+E063	1F624	smileys	triumph	smug
+E064	1F621	smileys	rage,pout	angry
+E065	1F620	smileys	angry	mad,annoyed
+E066	1F92C	smileys	cursing_face	foul
+E067	1F608	smileys	smiling_imp	devil,evil,horns
+E068	1F47F	smileys	imp	angry,devil,evil,horns
+E069	1F480	smileys	skull	dead,danger,poison
+E06A	2620 FE0F	smileys	skull_and_crossbones	danger,pirate
+E06B	1F4A9	smileys	hankey,poop,shit	crap
+E06C	1F921	smileys	clown_face	
+E06D	1F479	smileys	japanese_ogre	monster
+E06E	1F47A	smileys	japanese_goblin	
+E06F	1F47B	smileys	ghost	halloween
+E070	1F47D	smileys	alien	ufo
+E071	1F47E	smileys	space_invader	game,retro
+E072	1F916	smileys	robot	
+E073	1F63A	smileys	smiley_cat	
+E074	1F638	smileys	smile_cat	
+E075	1F639	smileys	joy_cat	
+E076	1F63B	smileys	heart_eyes_cat	
+E077	1F63C	smileys	smirk_cat	
+E078	1F63D	smileys	kissing_cat	
+E079	1F640	smileys	scream_cat	horror
+E07A	1F63F	smileys	crying_cat_face	sad,tear
+E07B	1F63E	smileys	pouting_cat	
+E07C	1F648	smileys	see_no_evil	monkey,blind,ignore
+E07D	1F649	smileys	hear_no_evil	monkey,deaf
+E07E	1F64A	smileys	speak_no_evil	monkey,mute,hush
+E07F	1F48C	smileys	love_letter	email,envelope
+E080	1F498	smileys	cupid	love,heart
+E081	1F49D	smileys	gift_heart	chocolates
+E082	1F496	smileys	sparkling_heart	
+E083	1F497	smileys	heartpulse	
+E084	1F493	smileys	heartbeat	
+E085	1F49E	smileys	revolving_hearts	
+E086	1F495	smileys	two_hearts	
+E087	1F49F	smileys	heart_decoration	
+E088	2763 FE0F	smileys	heavy_heart_exclamation	
+E089	1F494	smileys	broken_heart	
+E08A	2764 FE0F 200D 1F525	smileys	heart_on_fire	
+E08B	2764 FE0F 200D 1FA79	smileys	mending_heart	
+E08C	2764 FE0F	smileys	heart	love
+E08D	1FA77	smileys	pink_heart	
+E08E	1F9E1	smileys	orange_heart	
+E08F	1F49B	smileys	yellow_heart	
+E090	1F49A	smileys	green_heart	
+E091	1F499	smileys	blue_heart	
+E092	1FA75	smileys	light_blue_heart	
+E093	1F49C	smileys	purple_heart	
+E094	1F90E	smileys	brown_heart	
+E095	1F5A4	smileys	black_heart	
+E096	1FA76	smileys	grey_heart	
+E097	1F90D	smileys	white_heart	
+E098	1F48B	smileys	kiss	lipstick
+E099	1F4AF	smileys	100	score,perfect
+E09A	1F4A2	smileys	anger	angry
+E09B	1F4A5	smileys	boom,collision	explode
+E09C	1F4AB	smileys	dizzy	star
+E09D	1F4A6	smileys	sweat_drops	water,workout
+E09E	1F4A8	smileys	dash	wind,blow,fast
+E09F	1F573 FE0F	smileys	hole	
+E0A0	1F4AC	smileys	speech_balloon	comment
+E0A1	1F441 FE0F 200D 1F5E8 FE0F	smileys	eye_speech_bubble	
+E0A2	1F5E8 FE0F	smileys	left_speech_bubble	
+E0A3	1F5EF FE0F	smileys	right_anger_bubble	
+E0A4	1F4AD	smileys	thought_balloon	thinking
+E0A5	1F4A4	smileys	zzz	sleeping
+E0A6	1F44B	people	wave	goodbye
+E0A7	1F91A	people	raised_back_of_hand	
+E0A8	1F590 FE0F	people	raised_hand_with_fingers_splayed	
+E0A9	270B	people	hand,raised_hand	highfive,stop
+E0AA	1F596	people	vulcan_salute	prosper,spock
+E0AB	1FAF1	people	rightwards_hand	
+E0AC	1FAF2	people	leftwards_hand	
+E0AD	1FAF3	people	palm_down_hand	
+E0AE	1FAF4	people	palm_up_hand	
+E0AF	1FAF7	people	leftwards_pushing_hand	
+E0B0	1FAF8	people	rightwards_pushing_hand	
+E0B1	1F44C	people	ok_hand	
+E0B2	1F90C	people	pinched_fingers	
+E0B3	1F90F	people	pinching_hand	
+E0B4	270C FE0F	people	v	victory,peace
+E0B5	1F91E	people	crossed_fingers	luck,hopeful
+E0B6	1FAF0	people	hand_with_index_finger_and_thumb_crossed	
+E0B7	1F91F	people	love_you_gesture	
+E0B8	1F918	people	metal	
+E0B9	1F919	people	call_me_hand	
+E0BA	1F448	people	point_left	
+E0BB	1F449	people	point_right	
+E0BC	1F446	people	point_up_2	
+E0BD	1F595	people	middle_finger,fu	
+E0BE	1F447	people	point_down	
+E0BF	261D FE0F	people	point_up	
+E0C0	1FAF5	people	index_pointing_at_the_viewer	
+E0C1	1F44D	people	+1,thumbsup	approve,ok
+E0C2	1F44E	people	-1,thumbsdown	disapprove,bury
+E0C3	270A	people	fist_raised,fist	power
+E0C4	1F44A	people	fist_oncoming,facepunch,punch	attack
+E0C5	1F91B	people	fist_left	
+E0C6	1F91C	people	fist_right	
+E0C7	1F44F	people	clap	praise,applause
+E0C8	1F64C	people	raised_hands	hooray
+E0C9	1FAF6	people	heart_hands	love
+E0CA	1F450	people	open_hands	
+E0CB	1F932	people	palms_up_together	
+E0CC	1F91D	people	handshake	deal
+E0CD	1F64F	people	pray	please,hope,wish
+E0CE	270D FE0F	people	writing_hand	
+E0CF	1F485	people	nail_care	beauty,manicure
+E0D0	1F933	people	selfie	
+E0D1	1F4AA	people	muscle	flex,bicep,strong,workout
+E0D2	1F9BE	people	mechanical_arm	
+E0D3	1F9BF	people	mechanical_leg	
+E0D4	1F9B5	people	leg	
+E0D5	1F9B6	people	foot	
+E0D6	1F442	people	ear	hear,sound,listen
+E0D7	1F9BB	people	ear_with_hearing_aid	
+E0D8	1F443	people	nose	smell
+E0D9	1F9E0	people	brain	
+E0DA	1FAC0	people	anatomical_heart	
+E0DB	1FAC1	people	lungs	
+E0DC	1F9B7	people	tooth	
+E0DD	1F9B4	people	bone	
+E0DE	1F440	people	eyes	look,see,watch
+E0DF	1F441 FE0F	people	eye	
+E0E0	1F445	people	tongue	taste
+E0E1	1F444	people	lips	kiss
+E0E2	1FAE6	people	biting_lip	
+E0E3	1F476	people	baby	child,newborn
+E0E4	1F9D2	people	child	
+E0E5	1F466	people	boy	child
+E0E6	1F467	people	girl	child
+E0E7	1F9D1	people	adult	
+E0E8	1F471	people	blond_haired_person	
+E0E9	1F468	people	man	mustache,father,dad
+E0EA	1F9D4	people	bearded_person	
+E0EB	1F9D4 200D 2642 FE0F	people	man_beard	
+E0EC	1F9D4 200D 2640 FE0F	people	woman_beard	
+E0ED	1F468 200D 1F9B0	people	red_haired_man	
+E0EE	1F468 200D 1F9B1	people	curly_haired_man	
+E0EF	1F468 200D 1F9B3	people	white_haired_man	
+E0F0	1F468 200D 1F9B2	people	bald_man	
+E0F1	1F469	people	woman	girls
+E0F2	1F469 200D 1F9B0	people	red_haired_woman	
+E0F3	1F9D1 200D 1F9B0	people	person_red_hair	
+E0F4	1F469 200D 1F9B1	people	curly_haired_woman	
+E0F5	1F9D1 200D 1F9B1	people	person_curly_hair	
+E0F6	1F469 200D 1F9B3	people	white_haired_woman	
+E0F7	1F9D1 200D 1F9B3	people	person_white_hair	
+E0F8	1F469 200D 1F9B2	people	bald_woman	
+E0F9	1F9D1 200D 1F9B2	people	person_bald	
+E0FA	1F471 200D 2640 FE0F	people	blond_haired_woman,blonde_woman	
+E0FB	1F471 200D 2642 FE0F	people	blond_haired_man	
+E0FC	1F9D3	people	older_adult	
+E0FD	1F474	people	older_man	
+E0FE	1F475	people	older_woman	
+E0FF	1F64D	people	frowning_person	
+E100	1F64D 200D 2642 FE0F	people	frowning_man	
+E101	1F64D 200D 2640 FE0F	people	frowning_woman	
+E102	1F64E	people	pouting_face	
+E103	1F64E 200D 2642 FE0F	people	pouting_man	
+E104	1F64E 200D 2640 FE0F	people	pouting_woman	
+E105	1F645	people	no_good	stop,halt,denied
+E106	1F645 200D 2642 FE0F	people	no_good_man,ng_man	stop,halt,denied
+E107	1F645 200D 2640 FE0F	people	no_good_woman,ng_woman	stop,halt,denied
+E108	1F646	people	ok_person	
+E109	1F646 200D 2642 FE0F	people	ok_man	
+E10A	1F646 200D 2640 FE0F	people	ok_woman	
+E10B	1F481	people	tipping_hand_person,information_desk_person	
+E10C	1F481 200D 2642 FE0F	people	tipping_hand_man,sassy_man	information
+E10D	1F481 200D 2640 FE0F	people	tipping_hand_woman,sassy_woman	information
+E10E	1F64B	people	raising_hand	
+E10F	1F64B 200D 2642 FE0F	people	raising_hand_man	
+E110	1F64B 200D 2640 FE0F	people	raising_hand_woman	
+E111	1F9CF	people	deaf_person	
+E112	1F9CF 200D 2642 FE0F	people	deaf_man	
+E113	1F9CF 200D 2640 FE0F	people	deaf_woman	
+E114	1F647	people	bow	respect,thanks
+E115	1F647 200D 2642 FE0F	people	bowing_man	respect,thanks
+E116	1F647 200D 2640 FE0F	people	bowing_woman	respect,thanks
+E117	1F926	people	facepalm	
+E118	1F926 200D 2642 FE0F	people	man_facepalming	
+E119	1F926 200D 2640 FE0F	people	woman_facepalming	
+E11A	1F937	people	shrug	
+E11B	1F937 200D 2642 FE0F	people	man_shrugging	
+E11C	1F937 200D 2640 FE0F	people	woman_shrugging	
+E11D	1F9D1 200D 2695 FE0F	people	health_worker	
+E11E	1F468 200D 2695 FE0F	people	man_health_worker	doctor,nurse
+E11F	1F469 200D 2695 FE0F	people	woman_health_worker	doctor,nurse
+E120	1F9D1 200D 1F393	people	student	
+E121	1F468 200D 1F393	people	man_student	graduation
+E122	1F469 200D 1F393	people	woman_student	graduation
+E123	1F9D1 200D 1F3EB	people	teacher	
+E124	1F468 200D 1F3EB	people	man_teacher	school,professor
+E125	1F469 200D 1F3EB	people	woman_teacher	school,professor
+E126	1F9D1 200D 2696 FE0F	people	judge	
+E127	1F468 200D 2696 FE0F	people	man_judge	justice
+E128	1F469 200D 2696 FE0F	people	woman_judge	justice
+E129	1F9D1 200D 1F33E	people	farmer	
+E12A	1F468 200D 1F33E	people	man_farmer	
+E12B	1F469 200D 1F33E	people	woman_farmer	
+E12C	1F9D1 200D 1F373	people	cook	
+E12D	1F468 200D 1F373	people	man_cook	chef
+E12E	1F469 200D 1F373	people	woman_cook	chef
+E12F	1F9D1 200D 1F527	people	mechanic	
+E130	1F468 200D 1F527	people	man_mechanic	
+E131	1F469 200D 1F527	people	woman_mechanic	
+E132	1F9D1 200D 1F3ED	people	factory_worker	
+E133	1F468 200D 1F3ED	people	man_factory_worker	
+E134	1F469 200D 1F3ED	people	woman_factory_worker	
+E135	1F9D1 200D 1F4BC	people	office_worker	
+E136	1F468 200D 1F4BC	people	man_office_worker	business
+E137	1F469 200D 1F4BC	people	woman_office_worker	business
+E138	1F9D1 200D 1F52C	people	scientist	
+E139	1F468 200D 1F52C	people	man_scientist	research
+E13A	1F469 200D 1F52C	people	woman_scientist	research
+E13B	1F9D1 200D 1F4BB	people	technologist	
+E13C	1F468 200D 1F4BB	people	man_technologist	coder
+E13D	1F469 200D 1F4BB	people	woman_technologist	coder
+E13E	1F9D1 200D 1F3A4	people	singer	
+E13F	1F468 200D 1F3A4	people	man_singer	rockstar
+E140	1F469 200D 1F3A4	people	woman_singer	rockstar
+E141	1F9D1 200D 1F3A8	people	artist	
+E142	1F468 200D 1F3A8	people	man_artist	painter
+E143	1F469 200D 1F3A8	people	woman_artist	painter
+E144	1F9D1 200D 2708 FE0F	people	pilot	
+E145	1F468 200D 2708 FE0F	people	man_pilot	
+E146	1F469 200D 2708 FE0F	people	woman_pilot	
+E147	1F9D1 200D 1F680	people	astronaut	
+E148	1F468 200D 1F680	people	man_astronaut	space
+E149	1F469 200D 1F680	people	woman_astronaut	space
+E14A	1F9D1 200D 1F692	people	firefighter	
+E14B	1F468 200D 1F692	people	man_firefighter	
+E14C	1F469 200D 1F692	people	woman_firefighter	
+E14D	1F46E	people	police_officer,cop	law
+E14E	1F46E 200D 2642 FE0F	people	policeman	law,cop
+E14F	1F46E 200D 2640 FE0F	people	policewoman	law,cop
+E150	1F575 FE0F	people	detective	sleuth
+E151	1F575 FE0F 200D 2642 FE0F	people	male_detective	sleuth
+E152	1F575 FE0F 200D 2640 FE0F	people	female_detective	sleuth
+E153	1F482	people	guard	
+E154	1F482 200D 2642 FE0F	people	guardsman	
+E155	1F482 200D 2640 FE0F	people	guardswoman	
+E156	1F977	people	ninja	
+E157	1F477	people	construction_worker	helmet
+E158	1F477 200D 2642 FE0F	people	construction_worker_man	helmet
+E159	1F477 200D 2640 FE0F	people	construction_worker_woman	helmet
+E15A	1FAC5	people	person_with_crown	
+E15B	1F934	people	prince	crown,royal
+E15C	1F478	people	princess	crown,royal
+E15D	1F473	people	person_with_turban	
+E15E	1F473 200D 2642 FE0F	people	man_with_turban	
+E15F	1F473 200D 2640 FE0F	people	woman_with_turban	
+E160	1F472	people	man_with_gua_pi_mao	
+E161	1F9D5	people	woman_with_headscarf	hijab
+E162	1F935	people	person_in_tuxedo	groom,marriage,wedding
+E163	1F935 200D 2642 FE0F	people	man_in_tuxedo	
+E164	1F935 200D 2640 FE0F	people	woman_in_tuxedo	
+E165	1F470	people	person_with_veil	marriage,wedding
+E166	1F470 200D 2642 FE0F	people	man_with_veil	
+E167	1F470 200D 2640 FE0F	people	woman_with_veil,bride_with_veil	
+E168	1F930	people	pregnant_woman	
+E169	1FAC3	people	pregnant_man	
+E16A	1FAC4	people	pregnant_person	
+E16B	1F931	people	breast_feeding	nursing
+E16C	1F469 200D 1F37C	people	woman_feeding_baby	
+E16D	1F468 200D 1F37C	people	man_feeding_baby	
+E16E	1F9D1 200D 1F37C	people	person_feeding_baby	
+E16F	1F47C	people	angel	
+E170	1F385	people	santa	christmas
+E171	1F936	people	mrs_claus	santa
+E172	1F9D1 200D 1F384	people	mx_claus	
+E173	1F9B8	people	superhero	
+E174	1F9B8 200D 2642 FE0F	people	superhero_man	
+E175	1F9B8 200D 2640 FE0F	people	superhero_woman	
+E176	1F9B9	people	supervillain	
+E177	1F9B9 200D 2642 FE0F	people	supervillain_man	
+E178	1F9B9 200D 2640 FE0F	people	supervillain_woman	
+E179	1F9D9	people	mage	wizard
+E17A	1F9D9 200D 2642 FE0F	people	mage_man	wizard
+E17B	1F9D9 200D 2640 FE0F	people	mage_woman	wizard
+E17C	1F9DA	people	fairy	
+E17D	1F9DA 200D 2642 FE0F	people	fairy_man	
+E17E	1F9DA 200D 2640 FE0F	people	fairy_woman	
+E17F	1F9DB	people	vampire	
+E180	1F9DB 200D 2642 FE0F	people	vampire_man	
+E181	1F9DB 200D 2640 FE0F	people	vampire_woman	
+E182	1F9DC	people	merperson	
+E183	1F9DC 200D 2642 FE0F	people	merman	
+E184	1F9DC 200D 2640 FE0F	people	mermaid	
+E185	1F9DD	people	elf	
+E186	1F9DD 200D 2642 FE0F	people	elf_man	
+E187	1F9DD 200D 2640 FE0F	people	elf_woman	
+E188	1F9DE	people	genie	
+E189	1F9DE 200D 2642 FE0F	people	genie_man	
+E18A	1F9DE 200D 2640 FE0F	people	genie_woman	
+E18B	1F9DF	people	zombie	
+E18C	1F9DF 200D 2642 FE0F	people	zombie_man	
+E18D	1F9DF 200D 2640 FE0F	people	zombie_woman	
+E18E	1F9CC	people	troll	
+E18F	1F486	people	massage	spa
+E190	1F486 200D 2642 FE0F	people	massage_man	spa
+E191	1F486 200D 2640 FE0F	people	massage_woman	spa
+E192	1F487	people	haircut	beauty
+E193	1F487 200D 2642 FE0F	people	haircut_man	
+E194	1F487 200D 2640 FE0F	people	haircut_woman	
+E195	1F6B6	people	walking	
+E196	1F6B6 200D 2642 FE0F	people	walking_man	
+E197	1F6B6 200D 2640 FE0F	people	walking_woman	
+E198	1F9CD	people	standing_person	
+E199	1F9CD 200D 2642 FE0F	people	standing_man	
+E19A	1F9CD 200D 2640 FE0F	people	standing_woman	
+E19B	1F9CE	people	kneeling_person	
+E19C	1F9CE 200D 2642 FE0F	people	kneeling_man	
+E19D	1F9CE 200D 2640 FE0F	people	kneeling_woman	
+E19E	1F9D1 200D 1F9AF	people	person_with_probing_cane	
+E19F	1F468 200D 1F9AF	people	man_with_probing_cane	
+E1A0	1F469 200D 1F9AF	people	woman_with_probing_cane	
+E1A1	1F9D1 200D 1F9BC	people	person_in_motorized_wheelchair	
+E1A2	1F468 200D 1F9BC	people	man_in_motorized_wheelchair	
+E1A3	1F469 200D 1F9BC	people	woman_in_motorized_wheelchair	
+E1A4	1F9D1 200D 1F9BD	people	person_in_manual_wheelchair	
+E1A5	1F468 200D 1F9BD	people	man_in_manual_wheelchair	
+E1A6	1F469 200D 1F9BD	people	woman_in_manual_wheelchair	
+E1A7	1F3C3	people	runner,running	exercise,workout,marathon
+E1A8	1F3C3 200D 2642 FE0F	people	running_man	exercise,workout,marathon
+E1A9	1F3C3 200D 2640 FE0F	people	running_woman	exercise,workout,marathon
+E1AA	1F483	people	woman_dancing,dancer	dress
+E1AB	1F57A	people	man_dancing	dancer
+E1AC	1F574 FE0F	people	business_suit_levitating	
+E1AD	1F46F	people	dancers	bunny
+E1AE	1F46F 200D 2642 FE0F	people	dancing_men	bunny
+E1AF	1F46F 200D 2640 FE0F	people	dancing_women	bunny
+E1B0	1F9D6	people	sauna_person	steamy
+E1B1	1F9D6 200D 2642 FE0F	people	sauna_man	steamy
+E1B2	1F9D6 200D 2640 FE0F	people	sauna_woman	steamy
+E1B3	1F9D7	people	climbing	bouldering
+E1B4	1F9D7 200D 2642 FE0F	people	climbing_man	bouldering
+E1B5	1F9D7 200D 2640 FE0F	people	climbing_woman	bouldering
+E1B6	1F93A	people	person_fencing	
+E1B7	1F3C7	people	horse_racing	
+E1B8	26F7 FE0F	people	skier	
+E1B9	1F3C2	people	snowboarder	
+E1BA	1F3CC FE0F	people	golfing	
+E1BB	1F3CC FE0F 200D 2642 FE0F	people	golfing_man	
+E1BC	1F3CC FE0F 200D 2640 FE0F	people	golfing_woman	
+E1BD	1F3C4	people	surfer	
+E1BE	1F3C4 200D 2642 FE0F	people	surfing_man	
+E1BF	1F3C4 200D 2640 FE0F	people	surfing_woman	
+E1C0	1F6A3	people	rowboat	
+E1C1	1F6A3 200D 2642 FE0F	people	rowing_man	
+E1C2	1F6A3 200D 2640 FE0F	people	rowing_woman	
+E1C3	1F3CA	people	swimmer	
+E1C4	1F3CA 200D 2642 FE0F	people	swimming_man	
+E1C5	1F3CA 200D 2640 FE0F	people	swimming_woman	
+E1C6	26F9 FE0F	people	bouncing_ball_person	basketball
+E1C7	26F9 FE0F 200D 2642 FE0F	people	bouncing_ball_man,basketball_man	
+E1C8	26F9 FE0F 200D 2640 FE0F	people	bouncing_ball_woman,basketball_woman	
+E1C9	1F3CB FE0F	people	weight_lifting	gym,workout
+E1CA	1F3CB FE0F 200D 2642 FE0F	people	weight_lifting_man	gym,workout
+E1CB	1F3CB FE0F 200D 2640 FE0F	people	weight_lifting_woman	gym,workout
+E1CC	1F6B4	people	bicyclist	
+E1CD	1F6B4 200D 2642 FE0F	people	biking_man	
+E1CE	1F6B4 200D 2640 FE0F	people	biking_woman	
+E1CF	1F6B5	people	mountain_bicyclist	
+E1D0	1F6B5 200D 2642 FE0F	people	mountain_biking_man	
+E1D1	1F6B5 200D 2640 FE0F	people	mountain_biking_woman	
+E1D2	1F938	people	cartwheeling	
+E1D3	1F938 200D 2642 FE0F	people	man_cartwheeling	
+E1D4	1F938 200D 2640 FE0F	people	woman_cartwheeling	
+E1D5	1F93C	people	wrestling	
+E1D6	1F93C 200D 2642 FE0F	people	men_wrestling	
+E1D7	1F93C 200D 2640 FE0F	people	women_wrestling	
+E1D8	1F93D	people	water_polo	
+E1D9	1F93D 200D 2642 FE0F	people	man_playing_water_polo	
+E1DA	1F93D 200D 2640 FE0F	people	woman_playing_water_polo	
+E1DB	1F93E	people	handball_person	
+E1DC	1F93E 200D 2642 FE0F	people	man_playing_handball	
+E1DD	1F93E 200D 2640 FE0F	people	woman_playing_handball	
+E1DE	1F939	people	juggling_person	
+E1DF	1F939 200D 2642 FE0F	people	man_juggling	
+E1E0	1F939 200D 2640 FE0F	people	woman_juggling	
+E1E1	1F9D8	people	lotus_position	meditation
+E1E2	1F9D8 200D 2642 FE0F	people	lotus_position_man	meditation
+E1E3	1F9D8 200D 2640 FE0F	people	lotus_position_woman	meditation
+E1E4	1F6C0	people	bath	shower
+E1E5	1F6CC	people	sleeping_bed	
+E1E6	1F9D1 200D 1F91D 200D 1F9D1	people	people_holding_hands	couple,date
+E1E7	1F46D	people	two_women_holding_hands	couple,date
+E1E8	1F46B	people	couple	date
+E1E9	1F46C	people	two_men_holding_hands	couple,date
+E1EA	1F48F	people	couplekiss	
+E1EB	1F469 200D 2764 FE0F 200D 1F48B 200D 1F468	people	couplekiss_man_woman	
+E1EC	1F468 200D 2764 FE0F 200D 1F48B 200D 1F468	people	couplekiss_man_man	
+E1ED	1F469 200D 2764 FE0F 200D 1F48B 200D 1F469	people	couplekiss_woman_woman	
+E1EE	1F491	people	couple_with_heart	
+E1EF	1F469 200D 2764 FE0F 200D 1F468	people	couple_with_heart_woman_man	
+E1F0	1F468 200D 2764 FE0F 200D 1F468	people	couple_with_heart_man_man	
+E1F1	1F469 200D 2764 FE0F 200D 1F469	people	couple_with_heart_woman_woman	
+E1F2	1F46A	people	family	home,parents,child
+E1F3	1F468 200D 1F469 200D 1F466	people	family_man_woman_boy	
+E1F4	1F468 200D 1F469 200D 1F467	people	family_man_woman_girl	
+E1F5	1F468 200D 1F469 200D 1F467 200D 1F466	people	family_man_woman_girl_boy	
+E1F6	1F468 200D 1F469 200D 1F466 200D 1F466	people	family_man_woman_boy_boy	
+E1F7	1F468 200D 1F469 200D 1F467 200D 1F467	people	family_man_woman_girl_girl	
+E1F8	1F468 200D 1F468 200D 1F466	people	family_man_man_boy	
+E1F9	1F468 200D 1F468 200D 1F467	people	family_man_man_girl	
+E1FA	1F468 200D 1F468 200D 1F467 200D 1F466	people	family_man_man_girl_boy	
+E1FB	1F468 200D 1F468 200D 1F466 200D 1F466	people	family_man_man_boy_boy	
+E1FC	1F468 200D 1F468 200D 1F467 200D 1F467	people	family_man_man_girl_girl	
+E1FD	1F469 200D 1F469 200D 1F466	people	family_woman_woman_boy	
+E1FE	1F469 200D 1F469 200D 1F467	people	family_woman_woman_girl	
+E1FF	1F469 200D 1F469 200D 1F467 200D 1F466	people	family_woman_woman_girl_boy	
+E200	1F469 200D 1F469 200D 1F466 200D 1F466	people	family_woman_woman_boy_boy	
+E201	1F469 200D 1F469 200D 1F467 200D 1F467	people	family_woman_woman_girl_girl	
+E202	1F468 200D 1F466	people	family_man_boy	
+E203	1F468 200D 1F466 200D 1F466	people	family_man_boy_boy	
+E204	1F468 200D 1F467	people	family_man_girl	
+E205	1F468 200D 1F467 200D 1F466	people	family_man_girl_boy	
+E206	1F468 200D 1F467 200D 1F467	people	family_man_girl_girl	
+E207	1F469 200D 1F466	people	family_woman_boy	
+E208	1F469 200D 1F466 200D 1F466	people	family_woman_boy_boy	
+E209	1F469 200D 1F467	people	family_woman_girl	
+E20A	1F469 200D 1F467 200D 1F466	people	family_woman_girl_boy	
+E20B	1F469 200D 1F467 200D 1F467	people	family_woman_girl_girl	
+E20C	1F5E3 FE0F	people	speaking_head	
+E20D	1F464	people	bust_in_silhouette	user
+E20E	1F465	people	busts_in_silhouette	users,group,team
+E20F	1FAC2	people	people_hugging	
+E210	1F463	people	footprints	feet,tracks
+E211	1F435	nature	monkey_face	
+E212	1F412	nature	monkey	
+E213	1F98D	nature	gorilla	
+E214	1F9A7	nature	orangutan	
+E215	1F436	nature	dog	pet
+E216	1F415	nature	dog2	
+E217	1F9AE	nature	guide_dog	
+E218	1F415 200D 1F9BA	nature	service_dog	
+E219	1F429	nature	poodle	dog
+E21A	1F43A	nature	wolf	
+E21B	1F98A	nature	fox_face	
+E21C	1F99D	nature	raccoon	
+E21D	1F431	nature	cat	pet
+E21E	1F408	nature	cat2	
+E21F	1F408 200D 2B1B	nature	black_cat	
+E220	1F981	nature	lion	
+E221	1F42F	nature	tiger	
+E222	1F405	nature	tiger2	
+E223	1F406	nature	leopard	
+E224	1F434	nature	horse	
+E225	1FACE	nature	moose	canada
+E226	1FACF	nature	donkey	mule
+E227	1F40E	nature	racehorse	speed
+E228	1F984	nature	unicorn	
+E229	1F993	nature	zebra	
+E22A	1F98C	nature	deer	
+E22B	1F9AC	nature	bison	
+E22C	1F42E	nature	cow	
+E22D	1F402	nature	ox	
+E22E	1F403	nature	water_buffalo	
+E22F	1F404	nature	cow2	
+E230	1F437	nature	pig	
+E231	1F416	nature	pig2	
+E232	1F417	nature	boar	
+E233	1F43D	nature	pig_nose	
+E234	1F40F	nature	ram	
+E235	1F411	nature	sheep	
+E236	1F410	nature	goat	
+E237	1F42A	nature	dromedary_camel	desert
+E238	1F42B	nature	camel	
+E239	1F999	nature	llama	
+E23A	1F992	nature	giraffe	
+E23B	1F418	nature	elephant	
+E23C	1F9A3	nature	mammoth	
+E23D	1F98F	nature	rhinoceros	
+E23E	1F99B	nature	hippopotamus	
+E23F	1F42D	nature	mouse	
+E240	1F401	nature	mouse2	
+E241	1F400	nature	rat	
+E242	1F439	nature	hamster	pet
+E243	1F430	nature	rabbit	bunny
+E244	1F407	nature	rabbit2	
+E245	1F43F FE0F	nature	chipmunk	
+E246	1F9AB	nature	beaver	
+E247	1F994	nature	hedgehog	
+E248	1F987	nature	bat	
+E249	1F43B	nature	bear	
+E24A	1F43B 200D 2744 FE0F	nature	polar_bear	
+E24B	1F428	nature	koala	
+E24C	1F43C	nature	panda_face	
+E24D	1F9A5	nature	sloth	
+E24E	1F9A6	nature	otter	
+E24F	1F9A8	nature	skunk	
+E250	1F998	nature	kangaroo	
+E251	1F9A1	nature	badger	
+E252	1F43E	nature	feet,paw_prints	
+E253	1F983	nature	turkey	thanksgiving
+E254	1F414	nature	chicken	
+E255	1F413	nature	rooster	
+E256	1F423	nature	hatching_chick	
+E257	1F424	nature	baby_chick	
+E258	1F425	nature	hatched_chick	
+E259	1F426	nature	bird	
+E25A	1F427	nature	penguin	
+E25B	1F54A FE0F	nature	dove	peace
+E25C	1F985	nature	eagle	
+E25D	1F986	nature	duck	
+E25E	1F9A2	nature	swan	
+E25F	1F989	nature	owl	
+E260	1F9A4	nature	dodo	
+E261	1FAB6	nature	feather	
+E262	1F9A9	nature	flamingo	
+E263	1F99A	nature	peacock	
+E264	1F99C	nature	parrot	
+E265	1FABD	nature	wing	fly
+E266	1F426 200D 2B1B	nature	black_bird	
+E267	1FABF	nature	goose	honk
+E268	1F438	nature	frog	
+E269	1F40A	nature	crocodile	
+E26A	1F422	nature	turtle	slow
+E26B	1F98E	nature	lizard	
+E26C	1F40D	nature	snake	
+E26D	1F432	nature	dragon_face	
+E26E	1F409	nature	dragon	
+E26F	1F995	nature	sauropod	dinosaur
+E270	1F996	nature	t-rex	dinosaur
+E271	1F433	nature	whale	sea
+E272	1F40B	nature	whale2	
+E273	1F42C	nature	dolphin,flipper	
+E274	1F9AD	nature	seal	
+E275	1F41F	nature	fish	
+E276	1F420	nature	tropical_fish	
+E277	1F421	nature	blowfish	
+E278	1F988	nature	shark	
+E279	1F419	nature	octopus	
+E27A	1F41A	nature	shell	sea,beach
+E27B	1FAB8	nature	coral	
+E27C	1FABC	nature	jellyfish	
+E27D	1F40C	nature	snail	slow
+E27E	1F98B	nature	butterfly	
+E27F	1F41B	nature	bug	
+E280	1F41C	nature	ant	
+E281	1F41D	nature	bee,honeybee	
+E282	1FAB2	nature	beetle	
+E283	1F41E	nature	lady_beetle	bug
+E284	1F997	nature	cricket	
+E285	1FAB3	nature	cockroach	
+E286	1F577 FE0F	nature	spider	
+E287	1F578 FE0F	nature	spider_web	
+E288	1F982	nature	scorpion	
+E289	1F99F	nature	mosquito	
+E28A	1FAB0	nature	fly	
+E28B	1FAB1	nature	worm	
+E28C	1F9A0	nature	microbe	germ
+E28D	1F490	nature	bouquet	flowers
+E28E	1F338	nature	cherry_blossom	flower,spring
+E28F	1F4AE	nature	white_flower	
+E290	1FAB7	nature	lotus	
+E291	1F3F5 FE0F	nature	rosette	
+E292	1F339	nature	rose	flower
+E293	1F940	nature	wilted_flower	
+E294	1F33A	nature	hibiscus	
+E295	1F33B	nature	sunflower	
+E296	1F33C	nature	blossom	
+E297	1F337	nature	tulip	flower
+E298	1FABB	nature	hyacinth	
+E299	1F331	nature	seedling	plant
+E29A	1FAB4	nature	potted_plant	
+E29B	1F332	nature	evergreen_tree	wood
+E29C	1F333	nature	deciduous_tree	wood
+E29D	1F334	nature	palm_tree	
+E29E	1F335	nature	cactus	
+E29F	1F33E	nature	ear_of_rice	
+E2A0	1F33F	nature	herb	
+E2A1	2618 FE0F	nature	shamrock	
+E2A2	1F340	nature	four_leaf_clover	luck
+E2A3	1F341	nature	maple_leaf	canada
+E2A4	1F342	nature	fallen_leaf	autumn
+E2A5	1F343	nature	leaves	leaf
+E2A6	1FAB9	nature	empty_nest	
+E2A7	1FABA	nature	nest_with_eggs	
+E2A8	1F344	nature	mushroom	fungus
+E2A9	1F347	food	grapes	
+E2AA	1F348	food	melon	
+E2AB	1F349	food	watermelon	
+E2AC	1F34A	food	tangerine,orange,mandarin	
+E2AD	1F34B	food	lemon	
+E2AE	1F34C	food	banana	fruit
+E2AF	1F34D	food	pineapple	
+E2B0	1F96D	food	mango	
+E2B1	1F34E	food	apple	
+E2B2	1F34F	food	green_apple	fruit
+E2B3	1F350	food	pear	
+E2B4	1F351	food	peach	
+E2B5	1F352	food	cherries	fruit
+E2B6	1F353	food	strawberry	fruit
+E2B7	1FAD0	food	blueberries	
+E2B8	1F95D	food	kiwi_fruit	
+E2B9	1F345	food	tomato	
+E2BA	1FAD2	food	olive	
+E2BB	1F965	food	coconut	
+E2BC	1F951	food	avocado	
+E2BD	1F346	food	eggplant	aubergine
+E2BE	1F954	food	potato	
+E2BF	1F955	food	carrot	
+E2C0	1F33D	food	corn	
+E2C1	1F336 FE0F	food	hot_pepper	spicy
+E2C2	1FAD1	food	bell_pepper	
+E2C3	1F952	food	cucumber	
+E2C4	1F96C	food	leafy_green	
+E2C5	1F966	food	broccoli	
+E2C6	1F9C4	food	garlic	
+E2C7	1F9C5	food	onion	
+E2C8	1F95C	food	peanuts	
+E2C9	1FAD8	food	beans	
+E2CA	1F330	food	chestnut	
+E2CB	1FADA	food	ginger_root	
+E2CC	1FADB	food	pea_pod	
+E2CD	1F35E	food	bread	toast
+E2CE	1F950	food	croissant	
+E2CF	1F956	food	baguette_bread	
+E2D0	1FAD3	food	flatbread	
+E2D1	1F968	food	pretzel	
+E2D2	1F96F	food	bagel	
+E2D3	1F95E	food	pancakes	
+E2D4	1F9C7	food	waffle	
+E2D5	1F9C0	food	cheese	
+E2D6	1F356	food	meat_on_bone	
+E2D7	1F357	food	poultry_leg	meat,chicken
+E2D8	1F969	food	cut_of_meat	
+E2D9	1F953	food	bacon	
+E2DA	1F354	food	hamburger	burger
+E2DB	1F35F	food	fries	
+E2DC	1F355	food	pizza	
+E2DD	1F32D	food	hotdog	
+E2DE	1F96A	food	sandwich	
+E2DF	1F32E	food	taco	
+E2E0	1F32F	food	burrito	
+E2E1	1FAD4	food	tamale	
+E2E2	1F959	food	stuffed_flatbread	
+E2E3	1F9C6	food	falafel	
+E2E4	1F95A	food	egg	
+E2E5	1F373	food	fried_egg	breakfast
+E2E6	1F958	food	shallow_pan_of_food	paella,curry
+E2E7	1F372	food	stew	
+E2E8	1FAD5	food	fondue	
+E2E9	1F963	food	bowl_with_spoon	
+E2EA	1F957	food	green_salad	
+E2EB	1F37F	food	popcorn	
+E2EC	1F9C8	food	butter	
+E2ED	1F9C2	food	salt	
+E2EE	1F96B	food	canned_food	
+E2EF	1F371	food	bento	
+E2F0	1F358	food	rice_cracker	
+E2F1	1F359	food	rice_ball	
+E2F2	1F35A	food	rice	
+E2F3	1F35B	food	curry	
+E2F4	1F35C	food	ramen	noodle
+E2F5	1F35D	food	spaghetti	pasta
+E2F6	1F360	food	sweet_potato	
+E2F7	1F362	food	oden	
+E2F8	1F363	food	sushi	
+E2F9	1F364	food	fried_shrimp	tempura
+E2FA	1F365	food	fish_cake	
+E2FB	1F96E	food	moon_cake	
+E2FC	1F361	food	dango	
+E2FD	1F95F	food	dumpling	
+E2FE	1F960	food	fortune_cookie	
+E2FF	1F961	food	takeout_box	
+E300	1F980	food	crab	
+E301	1F99E	food	lobster	
+E302	1F990	food	shrimp	
+E303	1F991	food	squid	
+E304	1F9AA	food	oyster	
+E305	1F366	food	icecream	
+E306	1F367	food	shaved_ice	
+E307	1F368	food	ice_cream	
+E308	1F369	food	doughnut	
+E309	1F36A	food	cookie	
+E30A	1F382	food	birthday	party
+E30B	1F370	food	cake	dessert
+E30C	1F9C1	food	cupcake	
+E30D	1F967	food	pie	
+E30E	1F36B	food	chocolate_bar	
+E30F	1F36C	food	candy	sweet
+E310	1F36D	food	lollipop	
+E311	1F36E	food	custard	
+E312	1F36F	food	honey_pot	
+E313	1F37C	food	baby_bottle	milk
+E314	1F95B	food	milk_glass	
+E315	2615	food	coffee	cafe,espresso
+E316	1FAD6	food	teapot	
+E317	1F375	food	tea	green,breakfast
+E318	1F376	food	sake	
+E319	1F37E	food	champagne	bottle,bubbly,celebration
+E31A	1F377	food	wine_glass	
+E31B	1F378	food	cocktail	drink
+E31C	1F379	food	tropical_drink	summer,vacation
+E31D	1F37A	food	beer	drink
+E31E	1F37B	food	beers	drinks
+E31F	1F942	food	clinking_glasses	cheers,toast
+E320	1F943	food	tumbler_glass	whisky
+E321	1FAD7	food	pouring_liquid	
+E322	1F964	food	cup_with_straw	
+E323	1F9CB	food	bubble_tea	
+E324	1F9C3	food	beverage_box	
+E325	1F9C9	food	mate	
+E326	1F9CA	food	ice_cube	
+E327	1F962	food	chopsticks	
+E328	1F37D FE0F	food	plate_with_cutlery	dining,dinner
+E329	1F374	food	fork_and_knife	cutlery
+E32A	1F944	food	spoon	
+E32B	1F52A	food	hocho,knife	cut,chop
+E32C	1FAD9	food	jar	
+E32D	1F3FA	food	amphora	
+E32E	1F30D	travel	earth_africa	globe,world,international
+E32F	1F30E	travel	earth_americas	globe,world,international
+E330	1F30F	travel	earth_asia	globe,world,international
+E331	1F310	travel	globe_with_meridians	world,global,international
+E332	1F5FA FE0F	travel	world_map	travel
+E333	1F5FE	travel	japan	
+E334	1F9ED	travel	compass	
+E335	1F3D4 FE0F	travel	mountain_snow	
+E336	26F0 FE0F	travel	mountain	
+E337	1F30B	travel	volcano	
+E338	1F5FB	travel	mount_fuji	
+E339	1F3D5 FE0F	travel	camping	
+E33A	1F3D6 FE0F	travel	beach_umbrella	
+E33B	1F3DC FE0F	travel	desert	
+E33C	1F3DD FE0F	travel	desert_island	
+E33D	1F3DE FE0F	travel	national_park	
+E33E	1F3DF FE0F	travel	stadium	
+E33F	1F3DB FE0F	travel	classical_building	
+E340	1F3D7 FE0F	travel	building_construction	
+E341	1F9F1	travel	bricks	
+E342	1FAA8	travel	rock	
+E343	1FAB5	travel	wood	
+E344	1F6D6	travel	hut	
+E345	1F3D8 FE0F	travel	houses	
+E346	1F3DA FE0F	travel	derelict_house	
+E347	1F3E0	travel	house	
+E348	1F3E1	travel	house_with_garden	
+E349	1F3E2	travel	office	
+E34A	1F3E3	travel	post_office	
+E34B	1F3E4	travel	european_post_office	
+E34C	1F3E5	travel	hospital	
+E34D	1F3E6	travel	bank	
+E34E	1F3E8	travel	hotel	
+E34F	1F3E9	travel	love_hotel	
+E350	1F3EA	travel	convenience_store	
+E351	1F3EB	travel	school	
+E352	1F3EC	travel	department_store	
+E353	1F3ED	travel	factory	
+E354	1F3EF	travel	japanese_castle	
+E355	1F3F0	travel	european_castle	
+E356	1F492	travel	wedding	marriage
+E357	1F5FC	travel	tokyo_tower	
+E358	1F5FD	travel	statue_of_liberty	
+E359	26EA	travel	church	
+E35A	1F54C	travel	mosque	
+E35B	1F6D5	travel	hindu_temple	
+E35C	1F54D	travel	synagogue	
+E35D	26E9 FE0F	travel	shinto_shrine	
+E35E	1F54B	travel	kaaba	
+E35F	26F2	travel	fountain	
+E360	26FA	travel	tent	camping
+E361	1F301	travel	foggy	karl
+E362	1F303	travel	night_with_stars	
+E363	1F3D9 FE0F	travel	cityscape	skyline
+E364	1F304	travel	sunrise_over_mountains	
+E365	1F305	travel	sunrise	
+E366	1F306	travel	city_sunset	
+E367	1F307	travel	city_sunrise	
+E368	1F309	travel	bridge_at_night	
+E369	2668 FE0F	travel	hotsprings	
+E36A	1F3A0	travel	carousel_horse	
+E36B	1F6DD	travel	playground_slide	
+E36C	1F3A1	travel	ferris_wheel	
+E36D	1F3A2	travel	roller_coaster	
+E36E	1F488	travel	barber	
+E36F	1F3AA	travel	circus_tent	
+E370	1F682	travel	steam_locomotive	train
+E371	1F683	travel	railway_car	
+E372	1F684	travel	bullettrain_side	train
+E373	1F685	travel	bullettrain_front	train
+E374	1F686	travel	train2	
+E375	1F687	travel	metro	
+E376	1F688	travel	light_rail	
+E377	1F689	travel	station	
+E378	1F68A	travel	tram	
+E379	1F69D	travel	monorail	
+E37A	1F69E	travel	mountain_railway	
+E37B	1F68B	travel	train	
+E37C	1F68C	travel	bus	
+E37D	1F68D	travel	oncoming_bus	
+E37E	1F68E	travel	trolleybus	
+E37F	1F690	travel	minibus	
+E380	1F691	travel	ambulance	
+E381	1F692	travel	fire_engine	
+E382	1F693	travel	police_car	
+E383	1F694	travel	oncoming_police_car	
+E384	1F695	travel	taxi	
+E385	1F696	travel	oncoming_taxi	
+E386	1F697	travel	car,red_car	
+E387	1F698	travel	oncoming_automobile	
+E388	1F699	travel	blue_car	
+E389	1F6FB	travel	pickup_truck	
+E38A	1F69A	travel	truck	
+E38B	1F69B	travel	articulated_lorry	
+E38C	1F69C	travel	tractor	
+E38D	1F3CE FE0F	travel	racing_car	
+E38E	1F3CD FE0F	travel	motorcycle	
+E38F	1F6F5	travel	motor_scooter	
+E390	1F9BD	travel	manual_wheelchair	
+E391	1F9BC	travel	motorized_wheelchair	
+E392	1F6FA	travel	auto_rickshaw	
+E393	1F6B2	travel	bike	bicycle
+E394	1F6F4	travel	kick_scooter	
+E395	1F6F9	travel	skateboard	
+E396	1F6FC	travel	roller_skate	
+E397	1F68F	travel	busstop	
+E398	1F6E3 FE0F	travel	motorway	
+E399	1F6E4 FE0F	travel	railway_track	
+E39A	1F6E2 FE0F	travel	oil_drum	
+E39B	26FD	travel	fuelpump	
+E39C	1F6DE	travel	wheel	
+E39D	1F6A8	travel	rotating_light	911,emergency
+E39E	1F6A5	travel	traffic_light	
+E39F	1F6A6	travel	vertical_traffic_light	semaphore
+E3A0	1F6D1	travel	stop_sign	
+E3A1	1F6A7	travel	construction	wip
+E3A2	2693	travel	anchor	ship
+E3A3	1F6DF	travel	ring_buoy	life preserver
+E3A4	26F5	travel	boat,sailboat	
+E3A5	1F6F6	travel	canoe	
+E3A6	1F6A4	travel	speedboat	ship
+E3A7	1F6F3 FE0F	travel	passenger_ship	cruise
+E3A8	26F4 FE0F	travel	ferry	
+E3A9	1F6E5 FE0F	travel	motor_boat	
+E3AA	1F6A2	travel	ship	
+E3AB	2708 FE0F	travel	airplane	flight
+E3AC	1F6E9 FE0F	travel	small_airplane	flight
+E3AD	1F6EB	travel	flight_departure	
+E3AE	1F6EC	travel	flight_arrival	
+E3AF	1FA82	travel	parachute	
+E3B0	1F4BA	travel	seat	
+E3B1	1F681	travel	helicopter	
+E3B2	1F69F	travel	suspension_railway	
+E3B3	1F6A0	travel	mountain_cableway	
+E3B4	1F6A1	travel	aerial_tramway	
+E3B5	1F6F0 FE0F	travel	artificial_satellite	orbit,space
+E3B6	1F680	travel	rocket	ship,launch
+E3B7	1F6F8	travel	flying_saucer	ufo
+E3B8	1F6CE FE0F	travel	bellhop_bell	
+E3B9	1F9F3	travel	luggage	
+E3BA	231B	travel	hourglass	time
+E3BB	23F3	travel	hourglass_flowing_sand	time
+E3BC	231A	travel	watch	time
+E3BD	23F0	travel	alarm_clock	morning
+E3BE	23F1 FE0F	travel	stopwatch	
+E3BF	23F2 FE0F	travel	timer_clock	
+E3C0	1F570 FE0F	travel	mantelpiece_clock	
+E3C1	1F55B	travel	clock12	
+E3C2	1F567	travel	clock1230	
+E3C3	1F550	travel	clock1	
+E3C4	1F55C	travel	clock130	
+E3C5	1F551	travel	clock2	
+E3C6	1F55D	travel	clock230	
+E3C7	1F552	travel	clock3	
+E3C8	1F55E	travel	clock330	
+E3C9	1F553	travel	clock4	
+E3CA	1F55F	travel	clock430	
+E3CB	1F554	travel	clock5	
+E3CC	1F560	travel	clock530	
+E3CD	1F555	travel	clock6	
+E3CE	1F561	travel	clock630	
+E3CF	1F556	travel	clock7	
+E3D0	1F562	travel	clock730	
+E3D1	1F557	travel	clock8	
+E3D2	1F563	travel	clock830	
+E3D3	1F558	travel	clock9	
+E3D4	1F564	travel	clock930	
+E3D5	1F559	travel	clock10	
+E3D6	1F565	travel	clock1030	
+E3D7	1F55A	travel	clock11	
+E3D8	1F566	travel	clock1130	
+E3D9	1F311	travel	new_moon	
+E3DA	1F312	travel	waxing_crescent_moon	
+E3DB	1F313	travel	first_quarter_moon	
+E3DC	1F314	travel	moon,waxing_gibbous_moon	
+E3DD	1F315	travel	full_moon	
+E3DE	1F316	travel	waning_gibbous_moon	
+E3DF	1F317	travel	last_quarter_moon	
+E3E0	1F318	travel	waning_crescent_moon	
+E3E1	1F319	travel	crescent_moon	night
+E3E2	1F31A	travel	new_moon_with_face	
+E3E3	1F31B	travel	first_quarter_moon_with_face	
+E3E4	1F31C	travel	last_quarter_moon_with_face	
+E3E5	1F321 FE0F	travel	thermometer	
+E3E6	2600 FE0F	travel	sunny	weather
+E3E7	1F31D	travel	full_moon_with_face	
+E3E8	1F31E	travel	sun_with_face	summer
+E3E9	1FA90	travel	ringed_planet	
+E3EA	2B50	travel	star	
+E3EB	1F31F	travel	star2	
+E3EC	1F320	travel	stars	
+E3ED	1F30C	travel	milky_way	
+E3EE	2601 FE0F	travel	cloud	
+E3EF	26C5	travel	partly_sunny	weather,cloud
+E3F0	26C8 FE0F	travel	cloud_with_lightning_and_rain	
+E3F1	1F324 FE0F	travel	sun_behind_small_cloud	
+E3F2	1F325 FE0F	travel	sun_behind_large_cloud	
+E3F3	1F326 FE0F	travel	sun_behind_rain_cloud	
+E3F4	1F327 FE0F	travel	cloud_with_rain	
+E3F5	1F328 FE0F	travel	cloud_with_snow	
+E3F6	1F329 FE0F	travel	cloud_with_lightning	
+E3F7	1F32A FE0F	travel	tornado	
+E3F8	1F32B FE0F	travel	fog	
+E3F9	1F32C FE0F	travel	wind_face	
+E3FA	1F300	travel	cyclone	swirl
+E3FB	1F308	travel	rainbow	
+E3FC	1F302	travel	closed_umbrella	weather,rain
+E3FD	2602 FE0F	travel	open_umbrella	
+E3FE	2614	travel	umbrella	rain,weather
+E3FF	26F1 FE0F	travel	parasol_on_ground	beach_umbrella
+E400	26A1	travel	zap	lightning,thunder
+E401	2744 FE0F	travel	snowflake	winter,cold,weather
+E402	2603 FE0F	travel	snowman_with_snow	winter,christmas
+E403	26C4	travel	snowman	winter
+E404	2604 FE0F	travel	comet	
+E405	1F525	travel	fire	burn
+E406	1F4A7	travel	droplet	water
+E407	1F30A	travel	ocean	sea
+E408	1F383	activities	jack_o_lantern	halloween
+E409	1F384	activities	christmas_tree	
+E40A	1F386	activities	fireworks	festival,celebration
+E40B	1F387	activities	sparkler	
+E40C	1F9E8	activities	firecracker	
+E40D	2728	activities	sparkles	shiny
+E40E	1F388	activities	balloon	party,birthday
+E40F	1F389	activities	tada	hooray,party
+E410	1F38A	activities	confetti_ball	
+E411	1F38B	activities	tanabata_tree	
+E412	1F38D	activities	bamboo	
+E413	1F38E	activities	dolls	
+E414	1F38F	activities	flags	
+E415	1F390	activities	wind_chime	
+E416	1F391	activities	rice_scene	
+E417	1F9E7	activities	red_envelope	
+E418	1F380	activities	ribbon	
+E419	1F381	activities	gift	present,birthday,christmas
+E41A	1F397 FE0F	activities	reminder_ribbon	
+E41B	1F39F FE0F	activities	tickets	
+E41C	1F3AB	activities	ticket	
+E41D	1F396 FE0F	activities	medal_military	
+E41E	1F3C6	activities	trophy	award,contest,winner
+E41F	1F3C5	activities	medal_sports	gold,winner
+E420	1F947	activities	1st_place_medal	gold
+E421	1F948	activities	2nd_place_medal	silver
+E422	1F949	activities	3rd_place_medal	bronze
+E423	26BD	activities	soccer	sports
+E424	26BE	activities	baseball	sports
+E425	1F94E	activities	softball	
+E426	1F3C0	activities	basketball	sports
+E427	1F3D0	activities	volleyball	
+E428	1F3C8	activities	football	sports
+E429	1F3C9	activities	rugby_football	
+E42A	1F3BE	activities	tennis	sports
+E42B	1F94F	activities	flying_disc	
+E42C	1F3B3	activities	bowling	
+E42D	1F3CF	activities	cricket_game	
+E42E	1F3D1	activities	field_hockey	
+E42F	1F3D2	activities	ice_hockey	
+E430	1F94D	activities	lacrosse	
+E431	1F3D3	activities	ping_pong	
+E432	1F3F8	activities	badminton	
+E433	1F94A	activities	boxing_glove	
+E434	1F94B	activities	martial_arts_uniform	
+E435	1F945	activities	goal_net	
+E436	26F3	activities	golf	
+E437	26F8 FE0F	activities	ice_skate	skating
+E438	1F3A3	activities	fishing_pole_and_fish	
+E439	1F93F	activities	diving_mask	
+E43A	1F3BD	activities	running_shirt_with_sash	marathon
+E43B	1F3BF	activities	ski	
+E43C	1F6F7	activities	sled	
+E43D	1F94C	activities	curling_stone	
+E43E	1F3AF	activities	dart	target
+E43F	1FA80	activities	yo_yo	
+E440	1FA81	activities	kite	
+E441	1F52B	activities	gun	shoot,weapon
+E442	1F3B1	activities	8ball	pool,billiards
+E443	1F52E	activities	crystal_ball	fortune
+E444	1FA84	activities	magic_wand	
+E445	1F3AE	activities	video_game	play,controller,console
+E446	1F579 FE0F	activities	joystick	
+E447	1F3B0	activities	slot_machine	
+E448	1F3B2	activities	game_die	dice,gambling
+E449	1F9E9	activities	jigsaw	
+E44A	1F9F8	activities	teddy_bear	
+E44B	1FA85	activities	pinata	
+E44C	1FAA9	activities	mirror_ball	disco,party
+E44D	1FA86	activities	nesting_dolls	
+E44E	2660 FE0F	activities	spades	
+E44F	2665 FE0F	activities	hearts	
+E450	2666 FE0F	activities	diamonds	
+E451	2663 FE0F	activities	clubs	
+E452	265F FE0F	activities	chess_pawn	
+E453	1F0CF	activities	black_joker	
+E454	1F004	activities	mahjong	
+E455	1F3B4	activities	flower_playing_cards	
+E456	1F3AD	activities	performing_arts	theater,drama
+E457	1F5BC FE0F	activities	framed_picture	
+E458	1F3A8	activities	art	design,paint
+E459	1F9F5	activities	thread	
+E45A	1FAA1	activities	sewing_needle	
+E45B	1F9F6	activities	yarn	
+E45C	1FAA2	activities	knot	
+E45D	1F453	objects	eyeglasses	glasses
+E45E	1F576 FE0F	objects	dark_sunglasses	
+E45F	1F97D	objects	goggles	
+E460	1F97C	objects	lab_coat	
+E461	1F9BA	objects	safety_vest	
+E462	1F454	objects	necktie	shirt,formal
+E463	1F455	objects	shirt,tshirt	
+E464	1F456	objects	jeans	pants
+E465	1F9E3	objects	scarf	
+E466	1F9E4	objects	gloves	
+E467	1F9E5	objects	coat	
+E468	1F9E6	objects	socks	
+E469	1F457	objects	dress	
+E46A	1F458	objects	kimono	
+E46B	1F97B	objects	sari	
+E46C	1FA71	objects	one_piece_swimsuit	
+E46D	1FA72	objects	swim_brief	
+E46E	1FA73	objects	shorts	
+E46F	1F459	objects	bikini	beach
+E470	1F45A	objects	womans_clothes	
+E471	1FAAD	objects	folding_hand_fan	sensu
+E472	1F45B	objects	purse	
+E473	1F45C	objects	handbag	bag
+E474	1F45D	objects	pouch	bag
+E475	1F6CD FE0F	objects	shopping	bags
+E476	1F392	objects	school_satchel	
+E477	1FA74	objects	thong_sandal	
+E478	1F45E	objects	mans_shoe,shoe	
+E479	1F45F	objects	athletic_shoe	sneaker,sport,running
+E47A	1F97E	objects	hiking_boot	
+E47B	1F97F	objects	flat_shoe	
+E47C	1F460	objects	high_heel	shoe
+E47D	1F461	objects	sandal	shoe
+E47E	1FA70	objects	ballet_shoes	
+E47F	1F462	objects	boot	
+E480	1FAAE	objects	hair_pick	
+E481	1F451	objects	crown	king,queen,royal
+E482	1F452	objects	womans_hat	
+E483	1F3A9	objects	tophat	hat,classy
+E484	1F393	objects	mortar_board	education,college,university,graduation
+E485	1F9E2	objects	billed_cap	
+E486	1FA96	objects	military_helmet	
+E487	26D1 FE0F	objects	rescue_worker_helmet	
+E488	1F4FF	objects	prayer_beads	
+E489	1F484	objects	lipstick	makeup
+E48A	1F48D	objects	ring	wedding,marriage,engaged
+E48B	1F48E	objects	gem	diamond
+E48C	1F507	objects	mute	sound,volume
+E48D	1F508	objects	speaker	
+E48E	1F509	objects	sound	volume
+E48F	1F50A	objects	loud_sound	volume
+E490	1F4E2	objects	loudspeaker	announcement
+E491	1F4E3	objects	mega	
+E492	1F4EF	objects	postal_horn	
+E493	1F514	objects	bell	sound,notification
+E494	1F515	objects	no_bell	volume,off
+E495	1F3BC	objects	musical_score	
+E496	1F3B5	objects	musical_note	
+E497	1F3B6	objects	notes	music
+E498	1F399 FE0F	objects	studio_microphone	podcast
+E499	1F39A FE0F	objects	level_slider	
+E49A	1F39B FE0F	objects	control_knobs	
+E49B	1F3A4	objects	microphone	sing
+E49C	1F3A7	objects	headphones	music,earphones
+E49D	1F4FB	objects	radio	podcast
+E49E	1F3B7	objects	saxophone	
+E49F	1FA97	objects	accordion	
+E4A0	1F3B8	objects	guitar	rock
+E4A1	1F3B9	objects	musical_keyboard	piano
+E4A2	1F3BA	objects	trumpet	
+E4A3	1F3BB	objects	violin	
+E4A4	1FA95	objects	banjo	
+E4A5	1F941	objects	drum	
+E4A6	1FA98	objects	long_drum	
+E4A7	1FA87	objects	maracas	shaker
+E4A8	1FA88	objects	flute	recorder
+E4A9	1F4F1	objects	iphone	smartphone,mobile
+E4AA	1F4F2	objects	calling	call,incoming
+E4AB	260E FE0F	objects	phone,telephone	
+E4AC	1F4DE	objects	telephone_receiver	phone,call
+E4AD	1F4DF	objects	pager	
+E4AE	1F4E0	objects	fax	
+E4AF	1F50B	objects	battery	power
+E4B0	1FAAB	objects	low_battery	
+E4B1	1F50C	objects	electric_plug	
+E4B2	1F4BB	objects	computer	desktop,screen
+E4B3	1F5A5 FE0F	objects	desktop_computer	
+E4B4	1F5A8 FE0F	objects	printer	
+E4B5	2328 FE0F	objects	keyboard	
+E4B6	1F5B1 FE0F	objects	computer_mouse	
+E4B7	1F5B2 FE0F	objects	trackball	
+E4B8	1F4BD	objects	minidisc	
+E4B9	1F4BE	objects	floppy_disk	save
+E4BA	1F4BF	objects	cd	
+E4BB	1F4C0	objects	dvd	
+E4BC	1F9EE	objects	abacus	
+E4BD	1F3A5	objects	movie_camera	film,video
+E4BE	1F39E FE0F	objects	film_strip	
+E4BF	1F4FD FE0F	objects	film_projector	
+E4C0	1F3AC	objects	clapper	film
+E4C1	1F4FA	objects	tv	
+E4C2	1F4F7	objects	camera	photo
+E4C3	1F4F8	objects	camera_flash	photo
+E4C4	1F4F9	objects	video_camera	
+E4C5	1F4FC	objects	vhs	
+E4C6	1F50D	objects	mag	search,zoom
+E4C7	1F50E	objects	mag_right	
+E4C8	1F56F FE0F	objects	candle	
+E4C9	1F4A1	objects	bulb	idea,light
+E4CA	1F526	objects	flashlight	
+E4CB	1F3EE	objects	izakaya_lantern,lantern	
+E4CC	1FA94	objects	diya_lamp	
+E4CD	1F4D4	objects	notebook_with_decorative_cover	
+E4CE	1F4D5	objects	closed_book	
+E4CF	1F4D6	objects	book,open_book	
+E4D0	1F4D7	objects	green_book	
+E4D1	1F4D8	objects	blue_book	
+E4D2	1F4D9	objects	orange_book	
+E4D3	1F4DA	objects	books	library
+E4D4	1F4D3	objects	notebook	
+E4D5	1F4D2	objects	ledger	
+E4D6	1F4C3	objects	page_with_curl	
+E4D7	1F4DC	objects	scroll	document
+E4D8	1F4C4	objects	page_facing_up	document
+E4D9	1F4F0	objects	newspaper	press
+E4DA	1F5DE FE0F	objects	newspaper_roll	press
+E4DB	1F4D1	objects	bookmark_tabs	
+E4DC	1F516	objects	bookmark	
+E4DD	1F3F7 FE0F	objects	label	tag
+E4DE	1F4B0	objects	moneybag	dollar,cream
+E4DF	1FA99	objects	coin	
+E4E0	1F4B4	objects	yen	
+E4E1	1F4B5	objects	dollar	money
+E4E2	1F4B6	objects	euro	
+E4E3	1F4B7	objects	pound	
+E4E4	1F4B8	objects	money_with_wings	dollar
+E4E5	1F4B3	objects	credit_card	subscription
+E4E6	1F9FE	objects	receipt	
+E4E7	1F4B9	objects	chart	
+E4E8	2709 FE0F	objects	envelope	letter,email
+E4E9	1F4E7	objects	email,e-mail	
+E4EA	1F4E8	objects	incoming_envelope	
+E4EB	1F4E9	objects	envelope_with_arrow	
+E4EC	1F4E4	objects	outbox_tray	
+E4ED	1F4E5	objects	inbox_tray	
+E4EE	1F4E6	objects	package	shipping
+E4EF	1F4EB	objects	mailbox	
+E4F0	1F4EA	objects	mailbox_closed	
+E4F1	1F4EC	objects	mailbox_with_mail	
+E4F2	1F4ED	objects	mailbox_with_no_mail	
+E4F3	1F4EE	objects	postbox	
+E4F4	1F5F3 FE0F	objects	ballot_box	
+E4F5	270F FE0F	objects	pencil2	
+E4F6	2712 FE0F	objects	black_nib	
+E4F7	1F58B FE0F	objects	fountain_pen	
+E4F8	1F58A FE0F	objects	pen	
+E4F9	1F58C FE0F	objects	paintbrush	
+E4FA	1F58D FE0F	objects	crayon	
+E4FB	1F4DD	objects	memo,pencil	document,note
+E4FC	1F4BC	objects	briefcase	business
+E4FD	1F4C1	objects	file_folder	directory
+E4FE	1F4C2	objects	open_file_folder	
+E4FF	1F5C2 FE0F	objects	card_index_dividers	
+E500	1F4C5	objects	date	calendar,schedule
+E501	1F4C6	objects	calendar	schedule
+E502	1F5D2 FE0F	objects	spiral_notepad	
+E503	1F5D3 FE0F	objects	spiral_calendar	
+E504	1F4C7	objects	card_index	
+E505	1F4C8	objects	chart_with_upwards_trend	graph,metrics
+E506	1F4C9	objects	chart_with_downwards_trend	graph,metrics
+E507	1F4CA	objects	bar_chart	stats,metrics
+E508	1F4CB	objects	clipboard	
+E509	1F4CC	objects	pushpin	location
+E50A	1F4CD	objects	round_pushpin	location
+E50B	1F4CE	objects	paperclip	
+E50C	1F587 FE0F	objects	paperclips	
+E50D	1F4CF	objects	straight_ruler	
+E50E	1F4D0	objects	triangular_ruler	
+E50F	2702 FE0F	objects	scissors	cut
+E510	1F5C3 FE0F	objects	card_file_box	
+E511	1F5C4 FE0F	objects	file_cabinet	
+E512	1F5D1 FE0F	objects	wastebasket	trash
+E513	1F512	objects	lock	security,private
+E514	1F513	objects	unlock	security
+E515	1F50F	objects	lock_with_ink_pen	
+E516	1F510	objects	closed_lock_with_key	security
+E517	1F511	objects	key	lock,password
+E518	1F5DD FE0F	objects	old_key	
+E519	1F528	objects	hammer	tool
+E51A	1FA93	objects	axe	
+E51B	26CF FE0F	objects	pick	
+E51C	2692 FE0F	objects	hammer_and_pick	
+E51D	1F6E0 FE0F	objects	hammer_and_wrench	
+E51E	1F5E1 FE0F	objects	dagger	
+E51F	2694 FE0F	objects	crossed_swords	
+E520	1F4A3	objects	bomb	boom
+E521	1FA83	objects	boomerang	
+E522	1F3F9	objects	bow_and_arrow	archery
+E523	1F6E1 FE0F	objects	shield	
+E524	1FA9A	objects	carpentry_saw	
+E525	1F527	objects	wrench	tool
+E526	1FA9B	objects	screwdriver	
+E527	1F529	objects	nut_and_bolt	
+E528	2699 FE0F	objects	gear	
+E529	1F5DC FE0F	objects	clamp	
+E52A	2696 FE0F	objects	balance_scale	
+E52B	1F9AF	objects	probing_cane	
+E52C	1F517	objects	link	
+E52D	26D3 FE0F	objects	chains	
+E52E	1FA9D	objects	hook	
+E52F	1F9F0	objects	toolbox	
+E530	1F9F2	objects	magnet	
+E531	1FA9C	objects	ladder	
+E532	2697 FE0F	objects	alembic	
+E533	1F9EA	objects	test_tube	
+E534	1F9EB	objects	petri_dish	
+E535	1F9EC	objects	dna	
+E536	1F52C	objects	microscope	science,laboratory,investigate
+E537	1F52D	objects	telescope	
+E538	1F4E1	objects	satellite	signal
+E539	1F489	objects	syringe	health,hospital,needle
+E53A	1FA78	objects	drop_of_blood	
+E53B	1F48A	objects	pill	health,medicine
+E53C	1FA79	objects	adhesive_bandage	
+E53D	1FA7C	objects	crutch	
+E53E	1FA7A	objects	stethoscope	
+E53F	1FA7B	objects	x_ray	
+E540	1F6AA	objects	door	
+E541	1F6D7	objects	elevator	
+E542	1FA9E	objects	mirror	
+E543	1FA9F	objects	window	
+E544	1F6CF FE0F	objects	bed	
+E545	1F6CB FE0F	objects	couch_and_lamp	
+E546	1FA91	objects	chair	
+E547	1F6BD	objects	toilet	wc
+E548	1FAA0	objects	plunger	
+E549	1F6BF	objects	shower	bath
+E54A	1F6C1	objects	bathtub	
+E54B	1FAA4	objects	mouse_trap	
+E54C	1FA92	objects	razor	
+E54D	1F9F4	objects	lotion_bottle	
+E54E	1F9F7	objects	safety_pin	
+E54F	1F9F9	objects	broom	
+E550	1F9FA	objects	basket	
+E551	1F9FB	objects	roll_of_paper	toilet
+E552	1FAA3	objects	bucket	
+E553	1F9FC	objects	soap	
+E554	1FAE7	objects	bubbles	
+E555	1FAA5	objects	toothbrush	
+E556	1F9FD	objects	sponge	
+E557	1F9EF	objects	fire_extinguisher	
+E558	1F6D2	objects	shopping_cart	
+E559	1F6AC	objects	smoking	cigarette
+E55A	26B0 FE0F	objects	coffin	funeral
+E55B	1FAA6	objects	headstone	
+E55C	26B1 FE0F	objects	funeral_urn	
+E55D	1F9FF	objects	nazar_amulet	
+E55E	1FAAC	objects	hamsa	
+E55F	1F5FF	objects	moyai	stone
+E560	1FAA7	objects	placard	
+E561	1FAAA	objects	identification_card	
+E562	1F3E7	symbols	atm	
+E563	1F6AE	symbols	put_litter_in_its_place	
+E564	1F6B0	symbols	potable_water	
+E565	267F	symbols	wheelchair	accessibility
+E566	1F6B9	symbols	mens	
+E567	1F6BA	symbols	womens	
+E568	1F6BB	symbols	restroom	toilet
+E569	1F6BC	symbols	baby_symbol	
+E56A	1F6BE	symbols	wc	toilet,restroom
+E56B	1F6C2	symbols	passport_control	
+E56C	1F6C3	symbols	customs	
+E56D	1F6C4	symbols	baggage_claim	airport
+E56E	1F6C5	symbols	left_luggage	
+E56F	26A0 FE0F	symbols	warning	wip
+E570	1F6B8	symbols	children_crossing	
+E571	26D4	symbols	no_entry	limit
+E572	1F6AB	symbols	no_entry_sign	block,forbidden
+E573	1F6B3	symbols	no_bicycles	
+E574	1F6AD	symbols	no_smoking	
+E575	1F6AF	symbols	do_not_litter	
+E576	1F6B1	symbols	non-potable_water	
+E577	1F6B7	symbols	no_pedestrians	
+E578	1F4F5	symbols	no_mobile_phones	
+E579	1F51E	symbols	underage	
+E57A	2622 FE0F	symbols	radioactive	
+E57B	2623 FE0F	symbols	biohazard	
+E57C	2B06 FE0F	symbols	arrow_up	
+E57D	2197 FE0F	symbols	arrow_upper_right	
+E57E	27A1 FE0F	symbols	arrow_right	
+E57F	2198 FE0F	symbols	arrow_lower_right	
+E580	2B07 FE0F	symbols	arrow_down	
+E581	2199 FE0F	symbols	arrow_lower_left	
+E582	2B05 FE0F	symbols	arrow_left	
+E583	2196 FE0F	symbols	arrow_upper_left	
+E584	2195 FE0F	symbols	arrow_up_down	
+E585	2194 FE0F	symbols	left_right_arrow	
+E586	21A9 FE0F	symbols	leftwards_arrow_with_hook	return
+E587	21AA FE0F	symbols	arrow_right_hook	
+E588	2934 FE0F	symbols	arrow_heading_up	
+E589	2935 FE0F	symbols	arrow_heading_down	
+E58A	1F503	symbols	arrows_clockwise	
+E58B	1F504	symbols	arrows_counterclockwise	sync
+E58C	1F519	symbols	back	
+E58D	1F51A	symbols	end	
+E58E	1F51B	symbols	on	
+E58F	1F51C	symbols	soon	
+E590	1F51D	symbols	top	
+E591	1F6D0	symbols	place_of_worship	
+E592	269B FE0F	symbols	atom_symbol	
+E593	1F549 FE0F	symbols	om	
+E594	2721 FE0F	symbols	star_of_david	
+E595	2638 FE0F	symbols	wheel_of_dharma	
+E596	262F FE0F	symbols	yin_yang	
+E597	271D FE0F	symbols	latin_cross	
+E598	2626 FE0F	symbols	orthodox_cross	
+E599	262A FE0F	symbols	star_and_crescent	
+E59A	262E FE0F	symbols	peace_symbol	
+E59B	1F54E	symbols	menorah	
+E59C	1F52F	symbols	six_pointed_star	
+E59D	1FAAF	symbols	khanda	
+E59E	2648	symbols	aries	
+E59F	2649	symbols	taurus	
+E5A0	264A	symbols	gemini	
+E5A1	264B	symbols	cancer	
+E5A2	264C	symbols	leo	
+E5A3	264D	symbols	virgo	
+E5A4	264E	symbols	libra	
+E5A5	264F	symbols	scorpius	
+E5A6	2650	symbols	sagittarius	
+E5A7	2651	symbols	capricorn	
+E5A8	2652	symbols	aquarius	
+E5A9	2653	symbols	pisces	
+E5AA	26CE	symbols	ophiuchus	
+E5AB	1F500	symbols	twisted_rightwards_arrows	shuffle
+E5AC	1F501	symbols	repeat	loop
+E5AD	1F502	symbols	repeat_one	
+E5AE	25B6 FE0F	symbols	arrow_forward	
+E5AF	23E9	symbols	fast_forward	
+E5B0	23ED FE0F	symbols	next_track_button	
+E5B1	23EF FE0F	symbols	play_or_pause_button	
+E5B2	25C0 FE0F	symbols	arrow_backward	
+E5B3	23EA	symbols	rewind	
+E5B4	23EE FE0F	symbols	previous_track_button	
+E5B5	1F53C	symbols	arrow_up_small	
+E5B6	23EB	symbols	arrow_double_up	
+E5B7	1F53D	symbols	arrow_down_small	
+E5B8	23EC	symbols	arrow_double_down	
+E5B9	23F8 FE0F	symbols	pause_button	
+E5BA	23F9 FE0F	symbols	stop_button	
+E5BB	23FA FE0F	symbols	record_button	
+E5BC	23CF FE0F	symbols	eject_button	
+E5BD	1F3A6	symbols	cinema	film,movie
+E5BE	1F505	symbols	low_brightness	
+E5BF	1F506	symbols	high_brightness	
+E5C0	1F4F6	symbols	signal_strength	wifi
+E5C1	1F6DC	symbols	wireless	wifi
+E5C2	1F4F3	symbols	vibration_mode	
+E5C3	1F4F4	symbols	mobile_phone_off	mute,off
+E5C4	2640 FE0F	symbols	female_sign	
+E5C5	2642 FE0F	symbols	male_sign	
+E5C6	26A7 FE0F	symbols	transgender_symbol	
+E5C7	2716 FE0F	symbols	heavy_multiplication_x	
+E5C8	2795	symbols	heavy_plus_sign	
+E5C9	2796	symbols	heavy_minus_sign	
+E5CA	2797	symbols	heavy_division_sign	
+E5CB	1F7F0	symbols	heavy_equals_sign	
+E5CC	267E FE0F	symbols	infinity	
+E5CD	203C FE0F	symbols	bangbang	
+E5CE	2049 FE0F	symbols	interrobang	
+E5CF	2753	symbols	question	confused
+E5D0	2754	symbols	grey_question	
+E5D1	2755	symbols	grey_exclamation	
+E5D2	2757	symbols	exclamation,heavy_exclamation_mark	bang
+E5D3	3030 FE0F	symbols	wavy_dash	
+E5D4	1F4B1	symbols	currency_exchange	
+E5D5	1F4B2	symbols	heavy_dollar_sign	
+E5D6	2695 FE0F	symbols	medical_symbol	
+E5D7	267B FE0F	symbols	recycle	environment,green
+E5D8	269C FE0F	symbols	fleur_de_lis	
+E5D9	1F531	symbols	trident	
+E5DA	1F4DB	symbols	name_badge	
+E5DB	1F530	symbols	beginner	
+E5DC	2B55	symbols	o	
+E5DD	2705	symbols	white_check_mark	
+E5DE	2611 FE0F	symbols	ballot_box_with_check	
+E5DF	2714 FE0F	symbols	heavy_check_mark	
+E5E0	274C	symbols	x	
+E5E1	274E	symbols	negative_squared_cross_mark	
+E5E2	27B0	symbols	curly_loop	
+E5E3	27BF	symbols	loop	
+E5E4	303D FE0F	symbols	part_alternation_mark	
+E5E5	2733 FE0F	symbols	eight_spoked_asterisk	
+E5E6	2734 FE0F	symbols	eight_pointed_black_star	
+E5E7	2747 FE0F	symbols	sparkle	
+E5E8	A9 FE0F	symbols	copyright	
+E5E9	AE FE0F	symbols	registered	
+E5EA	2122 FE0F	symbols	tm	trademark
+E5EB	23 FE0F 20E3	symbols	hash	number
+E5EC	2A FE0F 20E3	symbols	asterisk	
+E5ED	30 FE0F 20E3	symbols	zero	
+E5EE	31 FE0F 20E3	symbols	one	
+E5EF	32 FE0F 20E3	symbols	two	
+E5F0	33 FE0F 20E3	symbols	three	
+E5F1	34 FE0F 20E3	symbols	four	
+E5F2	35 FE0F 20E3	symbols	five	
+E5F3	36 FE0F 20E3	symbols	six	
+E5F4	37 FE0F 20E3	symbols	seven	
+E5F5	38 FE0F 20E3	symbols	eight	
+E5F6	39 FE0F 20E3	symbols	nine	
+E5F7	1F51F	symbols	keycap_ten	
+E5F8	1F520	symbols	capital_abcd	letters
+E5F9	1F521	symbols	abcd	
+E5FA	1F522	symbols	1234	numbers
+E5FB	1F523	symbols	symbols	
+E5FC	1F524	symbols	abc	alphabet
+E5FD	1F170 FE0F	symbols	a	
+E5FE	1F18E	symbols	ab	
+E5FF	1F171 FE0F	symbols	b	
+E600	1F191	symbols	cl	
+E601	1F192	symbols	cool	
+E602	1F193	symbols	free	
+E603	2139 FE0F	symbols	information_source	
+E604	1F194	symbols	id	
+E605	24C2 FE0F	symbols	m	
+E606	1F195	symbols	new	fresh
+E607	1F196	symbols	ng	
+E608	1F17E FE0F	symbols	o2	
+E609	1F197	symbols	ok	yes
+E60A	1F17F FE0F	symbols	parking	
+E60B	1F198	symbols	sos	help,emergency
+E60C	1F199	symbols	up	
+E60D	1F19A	symbols	vs	
+E60E	1F201	symbols	koko	
+E60F	1F202 FE0F	symbols	sa	
+E610	1F237 FE0F	symbols	u6708	
+E611	1F236	symbols	u6709	
+E612	1F22F	symbols	u6307	
+E613	1F250	symbols	ideograph_advantage	
+E614	1F239	symbols	u5272	
+E615	1F21A	symbols	u7121	
+E616	1F232	symbols	u7981	
+E617	1F251	symbols	accept	
+E618	1F238	symbols	u7533	
+E619	1F234	symbols	u5408	
+E61A	1F233	symbols	u7a7a	
+E61B	3297 FE0F	symbols	congratulations	
+E61C	3299 FE0F	symbols	secret	
+E61D	1F23A	symbols	u55b6	
+E61E	1F235	symbols	u6e80	
+E61F	1F534	symbols	red_circle	
+E620	1F7E0	symbols	orange_circle	
+E621	1F7E1	symbols	yellow_circle	
+E622	1F7E2	symbols	green_circle	
+E623	1F535	symbols	large_blue_circle	
+E624	1F7E3	symbols	purple_circle	
+E625	1F7E4	symbols	brown_circle	
+E626	26AB	symbols	black_circle	
+E627	26AA	symbols	white_circle	
+E628	1F7E5	symbols	red_square	
+E629	1F7E7	symbols	orange_square	
+E62A	1F7E8	symbols	yellow_square	
+E62B	1F7E9	symbols	green_square	
+E62C	1F7E6	symbols	blue_square	
+E62D	1F7EA	symbols	purple_square	
+E62E	1F7EB	symbols	brown_square	
+E62F	2B1B	symbols	black_large_square	
+E630	2B1C	symbols	white_large_square	
+E631	25FC FE0F	symbols	black_medium_square	
+E632	25FB FE0F	symbols	white_medium_square	
+E633	25FE	symbols	black_medium_small_square	
+E634	25FD	symbols	white_medium_small_square	
+E635	25AA FE0F	symbols	black_small_square	
+E636	25AB FE0F	symbols	white_small_square	
+E637	1F536	symbols	large_orange_diamond	
+E638	1F537	symbols	large_blue_diamond	
+E639	1F538	symbols	small_orange_diamond	
+E63A	1F539	symbols	small_blue_diamond	
+E63B	1F53A	symbols	small_red_triangle	
+E63C	1F53B	symbols	small_red_triangle_down	
+E63D	1F4A0	symbols	diamond_shape_with_a_dot_inside	
+E63E	1F518	symbols	radio_button	
+E63F	1F533	symbols	white_square_button	
+E640	1F532	symbols	black_square_button	
+E641	1F3C1	flags	checkered_flag	milestone,finish
+E642	1F6A9	flags	triangular_flag_on_post	
+E643	1F38C	flags	crossed_flags	
+E644	1F3F4	flags	black_flag	
+E645	1F3F3 FE0F	flags	white_flag	
+E646	1F3F3 FE0F 200D 1F308	flags	rainbow_flag	pride
+E647	1F3F3 FE0F 200D 26A7 FE0F	flags	transgender_flag	
+E648	1F3F4 200D 2620 FE0F	flags	pirate_flag	
+E649	1F1E6 1F1E8	flags	ascension_island	
+E64A	1F1E6 1F1E9	flags	andorra	
+E64B	1F1E6 1F1EA	flags	united_arab_emirates	
+E64C	1F1E6 1F1EB	flags	afghanistan	
+E64D	1F1E6 1F1EC	flags	antigua_barbuda	
+E64E	1F1E6 1F1EE	flags	anguilla	
+E64F	1F1E6 1F1F1	flags	albania	
+E650	1F1E6 1F1F2	flags	armenia	
+E651	1F1E6 1F1F4	flags	angola	
+E652	1F1E6 1F1F6	flags	antarctica	
+E653	1F1E6 1F1F7	flags	argentina	
+E654	1F1E6 1F1F8	flags	american_samoa	
+E655	1F1E6 1F1F9	flags	austria	
+E656	1F1E6 1F1FA	flags	australia	
+E657	1F1E6 1F1FC	flags	aruba	
+E658	1F1E6 1F1FD	flags	aland_islands	
+E659	1F1E6 1F1FF	flags	azerbaijan	
+E65A	1F1E7 1F1E6	flags	bosnia_herzegovina	
+E65B	1F1E7 1F1E7	flags	barbados	
+E65C	1F1E7 1F1E9	flags	bangladesh	
+E65D	1F1E7 1F1EA	flags	belgium	
+E65E	1F1E7 1F1EB	flags	burkina_faso	
+E65F	1F1E7 1F1EC	flags	bulgaria	
+E660	1F1E7 1F1ED	flags	bahrain	
+E661	1F1E7 1F1EE	flags	burundi	
+E662	1F1E7 1F1EF	flags	benin	
+E663	1F1E7 1F1F1	flags	st_barthelemy	
+E664	1F1E7 1F1F2	flags	bermuda	
+E665	1F1E7 1F1F3	flags	brunei	
+E666	1F1E7 1F1F4	flags	bolivia	
+E667	1F1E7 1F1F6	flags	caribbean_netherlands	
+E668	1F1E7 1F1F7	flags	brazil	
+E669	1F1E7 1F1F8	flags	bahamas	
+E66A	1F1E7 1F1F9	flags	bhutan	
+E66B	1F1E7 1F1FB	flags	bouvet_island	
+E66C	1F1E7 1F1FC	flags	botswana	
+E66D	1F1E7 1F1FE	flags	belarus	
+E66E	1F1E7 1F1FF	flags	belize	
+E66F	1F1E8 1F1E6	flags	canada	
+E670	1F1E8 1F1E8	flags	cocos_islands	keeling
+E671	1F1E8 1F1E9	flags	congo_kinshasa	
+E672	1F1E8 1F1EB	flags	central_african_republic	
+E673	1F1E8 1F1EC	flags	congo_brazzaville	
+E674	1F1E8 1F1ED	flags	switzerland	
+E675	1F1E8 1F1EE	flags	cote_divoire	ivory
+E676	1F1E8 1F1F0	flags	cook_islands	
+E677	1F1E8 1F1F1	flags	chile	
+E678	1F1E8 1F1F2	flags	cameroon	
+E679	1F1E8 1F1F3	flags	cn	china
+E67A	1F1E8 1F1F4	flags	colombia	
+E67B	1F1E8 1F1F5	flags	clipperton_island	
+E67C	1F1E8 1F1F7	flags	costa_rica	
+E67D	1F1E8 1F1FA	flags	cuba	
+E67E	1F1E8 1F1FB	flags	cape_verde	
+E67F	1F1E8 1F1FC	flags	curacao	
+E680	1F1E8 1F1FD	flags	christmas_island	
+E681	1F1E8 1F1FE	flags	cyprus	
+E682	1F1E8 1F1FF	flags	czech_republic	
+E683	1F1E9 1F1EA	flags	de	flag,germany
+E684	1F1E9 1F1EC	flags	diego_garcia	
+E685	1F1E9 1F1EF	flags	djibouti	
+E686	1F1E9 1F1F0	flags	denmark	
+E687	1F1E9 1F1F2	flags	dominica	
+E688	1F1E9 1F1F4	flags	dominican_republic	
+E689	1F1E9 1F1FF	flags	algeria	
+E68A	1F1EA 1F1E6	flags	ceuta_melilla	
+E68B	1F1EA 1F1E8	flags	ecuador	
+E68C	1F1EA 1F1EA	flags	estonia	
+E68D	1F1EA 1F1EC	flags	egypt	
+E68E	1F1EA 1F1ED	flags	western_sahara	
+E68F	1F1EA 1F1F7	flags	eritrea	
+E690	1F1EA 1F1F8	flags	es	spain
+E691	1F1EA 1F1F9	flags	ethiopia	
+E692	1F1EA 1F1FA	flags	eu,european_union	
+E693	1F1EB 1F1EE	flags	finland	
+E694	1F1EB 1F1EF	flags	fiji	
+E695	1F1EB 1F1F0	flags	falkland_islands	
+E696	1F1EB 1F1F2	flags	micronesia	
+E697	1F1EB 1F1F4	flags	faroe_islands	
+E698	1F1EB 1F1F7	flags	fr	france,french
+E699	1F1EC 1F1E6	flags	gabon	
+E69A	1F1EC 1F1E7	flags	gb,uk	flag,british
+E69B	1F1EC 1F1E9	flags	grenada	
+E69C	1F1EC 1F1EA	flags	georgia	
+E69D	1F1EC 1F1EB	flags	french_guiana	
+E69E	1F1EC 1F1EC	flags	guernsey	
+E69F	1F1EC 1F1ED	flags	ghana	
+E6A0	1F1EC 1F1EE	flags	gibraltar	
+E6A1	1F1EC 1F1F1	flags	greenland	
+E6A2	1F1EC 1F1F2	flags	gambia	
+E6A3	1F1EC 1F1F3	flags	guinea	
+E6A4	1F1EC 1F1F5	flags	guadeloupe	
+E6A5	1F1EC 1F1F6	flags	equatorial_guinea	
+E6A6	1F1EC 1F1F7	flags	greece	
+E6A7	1F1EC 1F1F8	flags	south_georgia_south_sandwich_islands	
+E6A8	1F1EC 1F1F9	flags	guatemala	
+E6A9	1F1EC 1F1FA	flags	guam	
+E6AA	1F1EC 1F1FC	flags	guinea_bissau	
+E6AB	1F1EC 1F1FE	flags	guyana	
+E6AC	1F1ED 1F1F0	flags	hong_kong	
+E6AD	1F1ED 1F1F2	flags	heard_mcdonald_islands	
+E6AE	1F1ED 1F1F3	flags	honduras	
+E6AF	1F1ED 1F1F7	flags	croatia	
+E6B0	1F1ED 1F1F9	flags	haiti	
+E6B1	1F1ED 1F1FA	flags	hungary	
+E6B2	1F1EE 1F1E8	flags	canary_islands	
+E6B3	1F1EE 1F1E9	flags	indonesia	
+E6B4	1F1EE 1F1EA	flags	ireland	
+E6B5	1F1EE 1F1F1	flags	israel	
+E6B6	1F1EE 1F1F2	flags	isle_of_man	
+E6B7	1F1EE 1F1F3	flags	india	
+E6B8	1F1EE 1F1F4	flags	british_indian_ocean_territory	
+E6B9	1F1EE 1F1F6	flags	iraq	
+E6BA	1F1EE 1F1F7	flags	iran	
+E6BB	1F1EE 1F1F8	flags	iceland	
+E6BC	1F1EE 1F1F9	flags	it	italy
+E6BD	1F1EF 1F1EA	flags	jersey	
+E6BE	1F1EF 1F1F2	flags	jamaica	
+E6BF	1F1EF 1F1F4	flags	jordan	
+E6C0	1F1EF 1F1F5	flags	jp	japan
+E6C1	1F1F0 1F1EA	flags	kenya	
+E6C2	1F1F0 1F1EC	flags	kyrgyzstan	
+E6C3	1F1F0 1F1ED	flags	cambodia	
+E6C4	1F1F0 1F1EE	flags	kiribati	
+E6C5	1F1F0 1F1F2	flags	comoros	
+E6C6	1F1F0 1F1F3	flags	st_kitts_nevis	
+E6C7	1F1F0 1F1F5	flags	north_korea	
+E6C8	1F1F0 1F1F7	flags	kr	korea
+E6C9	1F1F0 1F1FC	flags	kuwait	
+E6CA	1F1F0 1F1FE	flags	cayman_islands	
+E6CB	1F1F0 1F1FF	flags	kazakhstan	
+E6CC	1F1F1 1F1E6	flags	laos	
+E6CD	1F1F1 1F1E7	flags	lebanon	
+E6CE	1F1F1 1F1E8	flags	st_lucia	
+E6CF	1F1F1 1F1EE	flags	liechtenstein	
+E6D0	1F1F1 1F1F0	flags	sri_lanka	
+E6D1	1F1F1 1F1F7	flags	liberia	
+E6D2	1F1F1 1F1F8	flags	lesotho	
+E6D3	1F1F1 1F1F9	flags	lithuania	
+E6D4	1F1F1 1F1FA	flags	luxembourg	
+E6D5	1F1F1 1F1FB	flags	latvia	
+E6D6	1F1F1 1F1FE	flags	libya	
+E6D7	1F1F2 1F1E6	flags	morocco	
+E6D8	1F1F2 1F1E8	flags	monaco	
+E6D9	1F1F2 1F1E9	flags	moldova	
+E6DA	1F1F2 1F1EA	flags	montenegro	
+E6DB	1F1F2 1F1EB	flags	st_martin	
+E6DC	1F1F2 1F1EC	flags	madagascar	
+E6DD	1F1F2 1F1ED	flags	marshall_islands	
+E6DE	1F1F2 1F1F0	flags	macedonia	
+E6DF	1F1F2 1F1F1	flags	mali	
+E6E0	1F1F2 1F1F2	flags	myanmar	burma
+E6E1	1F1F2 1F1F3	flags	mongolia	
+E6E2	1F1F2 1F1F4	flags	macau	
+E6E3	1F1F2 1F1F5	flags	northern_mariana_islands	
+E6E4	1F1F2 1F1F6	flags	martinique	
+E6E5	1F1F2 1F1F7	flags	mauritania	
+E6E6	1F1F2 1F1F8	flags	montserrat	
+E6E7	1F1F2 1F1F9	flags	malta	
+E6E8	1F1F2 1F1FA	flags	mauritius	
+E6E9	1F1F2 1F1FB	flags	maldives	
+E6EA	1F1F2 1F1FC	flags	malawi	
+E6EB	1F1F2 1F1FD	flags	mexico	
+E6EC	1F1F2 1F1FE	flags	malaysia	
+E6ED	1F1F2 1F1FF	flags	mozambique	
+E6EE	1F1F3 1F1E6	flags	namibia	
+E6EF	1F1F3 1F1E8	flags	new_caledonia	
+E6F0	1F1F3 1F1EA	flags	niger	
+E6F1	1F1F3 1F1EB	flags	norfolk_island	
+E6F2	1F1F3 1F1EC	flags	nigeria	
+E6F3	1F1F3 1F1EE	flags	nicaragua	
+E6F4	1F1F3 1F1F1	flags	netherlands	
+E6F5	1F1F3 1F1F4	flags	norway	
+E6F6	1F1F3 1F1F5	flags	nepal	
+E6F7	1F1F3 1F1F7	flags	nauru	
+E6F8	1F1F3 1F1FA	flags	niue	
+E6F9	1F1F3 1F1FF	flags	new_zealand	
+E6FA	1F1F4 1F1F2	flags	oman	
+E6FB	1F1F5 1F1E6	flags	panama	
+E6FC	1F1F5 1F1EA	flags	peru	
+E6FD	1F1F5 1F1EB	flags	french_polynesia	
+E6FE	1F1F5 1F1EC	flags	papua_new_guinea	
+E6FF	1F1F5 1F1ED	flags	philippines	
+E700	1F1F5 1F1F0	flags	pakistan	
+E701	1F1F5 1F1F1	flags	poland	
+E702	1F1F5 1F1F2	flags	st_pierre_miquelon	
+E703	1F1F5 1F1F3	flags	pitcairn_islands	
+E704	1F1F5 1F1F7	flags	puerto_rico	
+E705	1F1F5 1F1F8	flags	palestinian_territories	
+E706	1F1F5 1F1F9	flags	portugal	
+E707	1F1F5 1F1FC	flags	palau	
+E708	1F1F5 1F1FE	flags	paraguay	
+E709	1F1F6 1F1E6	flags	qatar	
+E70A	1F1F7 1F1EA	flags	reunion	
+E70B	1F1F7 1F1F4	flags	romania	
+E70C	1F1F7 1F1F8	flags	serbia	
+E70D	1F1F7 1F1FA	flags	ru	russia
+E70E	1F1F7 1F1FC	flags	rwanda	
+E70F	1F1F8 1F1E6	flags	saudi_arabia	
+E710	1F1F8 1F1E7	flags	solomon_islands	
+E711	1F1F8 1F1E8	flags	seychelles	
+E712	1F1F8 1F1E9	flags	sudan	
+E713	1F1F8 1F1EA	flags	sweden	
+E714	1F1F8 1F1EC	flags	singapore	
+E715	1F1F8 1F1ED	flags	st_helena	
+E716	1F1F8 1F1EE	flags	slovenia	
+E717	1F1F8 1F1EF	flags	svalbard_jan_mayen	
+E718	1F1F8 1F1F0	flags	slovakia	
+E719	1F1F8 1F1F1	flags	sierra_leone	
+E71A	1F1F8 1F1F2	flags	san_marino	
+E71B	1F1F8 1F1F3	flags	senegal	
+E71C	1F1F8 1F1F4	flags	somalia	
+E71D	1F1F8 1F1F7	flags	suriname	
+E71E	1F1F8 1F1F8	flags	south_sudan	
+E71F	1F1F8 1F1F9	flags	sao_tome_principe	
+E720	1F1F8 1F1FB	flags	el_salvador	
+E721	1F1F8 1F1FD	flags	sint_maarten	
+E722	1F1F8 1F1FE	flags	syria	
+E723	1F1F8 1F1FF	flags	swaziland	
+E724	1F1F9 1F1E6	flags	tristan_da_cunha	
+E725	1F1F9 1F1E8	flags	turks_caicos_islands	
+E726	1F1F9 1F1E9	flags	chad	
+E727	1F1F9 1F1EB	flags	french_southern_territories	
+E728	1F1F9 1F1EC	flags	togo	
+E729	1F1F9 1F1ED	flags	thailand	
+E72A	1F1F9 1F1EF	flags	tajikistan	
+E72B	1F1F9 1F1F0	flags	tokelau	
+E72C	1F1F9 1F1F1	flags	timor_leste	
+E72D	1F1F9 1F1F2	flags	turkmenistan	
+E72E	1F1F9 1F1F3	flags	tunisia	
+E72F	1F1F9 1F1F4	flags	tonga	
+E730	1F1F9 1F1F7	flags	tr	turkey
+E731	1F1F9 1F1F9	flags	trinidad_tobago	
+E732	1F1F9 1F1FB	flags	tuvalu	
+E733	1F1F9 1F1FC	flags	taiwan	
+E734	1F1F9 1F1FF	flags	tanzania	
+E735	1F1FA 1F1E6	flags	ukraine	
+E736	1F1FA 1F1EC	flags	uganda	
+E737	1F1FA 1F1F2	flags	us_outlying_islands	
+E738	1F1FA 1F1F3	flags	united_nations	
+E739	1F1FA 1F1F8	flags	us	flag,united,america
+E73A	1F1FA 1F1FE	flags	uruguay	
+E73B	1F1FA 1F1FF	flags	uzbekistan	
+E73C	1F1FB 1F1E6	flags	vatican_city	
+E73D	1F1FB 1F1E8	flags	st_vincent_grenadines	
+E73E	1F1FB 1F1EA	flags	venezuela	
+E73F	1F1FB 1F1EC	flags	british_virgin_islands	
+E740	1F1FB 1F1EE	flags	us_virgin_islands	
+E741	1F1FB 1F1F3	flags	vietnam	
+E742	1F1FB 1F1FA	flags	vanuatu	
+E743	1F1FC 1F1EB	flags	wallis_futuna	
+E744	1F1FC 1F1F8	flags	samoa	
+E745	1F1FD 1F1F0	flags	kosovo	
+E746	1F1FE 1F1EA	flags	yemen	
+E747	1F1FE 1F1F9	flags	mayotte	
+E748	1F1FF 1F1E6	flags	south_africa	
+E749	1F1FF 1F1F2	flags	zambia	
+E74A	1F1FF 1F1FC	flags	zimbabwe	
+E74B	1F3F4 E0067 E0062 E0065 E006E E0067 E007F	flags	england	
+E74C	1F3F4 E0067 E0062 E0073 E0063 E0074 E007F	flags	scotland	
+E74D	1F3F4 E0067 E0062 E0077 E006C E0073 E007F	flags	wales	

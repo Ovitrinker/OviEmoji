@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "Emojis im Chat und auf Schildern, mit Auswahlfenster und Autovervollständigung. Verschickt werden Kurzcodes wie :smile:, Spieler mit der Mod sehen das Bild, Spieler ohne Mod den Kurzcode. Der Server braucht nichts. Emoji-Grafiken: Twemoji, CC-BY 4.0.",
+  "authors": [
+    "Ovitrinker"
+  ],
+  "contributors": [
+    "Emoji-Grafiken: Twemoji von Twitter/X und Mitwirkenden, CC-BY 4.0 (https://github.com/jdecked/twemoji)",
+    "Emoji-Namen: gemoji von GitHub, MIT-Lizenz (https://github.com/github/gemoji)"
+  ],
+  "license": "Ovitrinker",
+  "icon": "assets/oviemoji/icon.png",
+  "contact": {
+    "homepage": "https://mods.ovitrinker.ch/oviemoji/",
+    "sources": "https://github.com/Ovitrinker/OviEmoji",
+    "issues": "https://github.com/Ovitrinker/OviEmoji/issues"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ch.ovitrinker.oviemoji.OviEmojiClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "oviemoji.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "${minecraft}"
+  }
+}
