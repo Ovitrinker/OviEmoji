@@ -11,18 +11,18 @@ import net.minecraft.network.chat.Style;
 import net.minecraft.resources.Identifier;
 
 /**
- * Setzt Emojis in Minecraft-Texte ein.
+ * Inserts emojis into Minecraft texts.
  *
- * <p>Ein Emoji wird als ein Zeichen aus dem privaten Unicode-Bereich in der Schrift
- * {@code oviemoji:emoji} gezeichnet. Diese Schrift ist eine Bitmap-Schrift, deren Zeichen die
- * farbigen Twemoji-Bilder sind. Weil ein Emoji damit ein ganz normales Zeichen ist, funktionieren
- * Zeilenumbruch, Ausblenden des Chats, Klick- und Hover-Ereignisse wie bei jedem anderen Text.
+ * <p>An emoji is drawn as a character from the Unicode private use area in the font
+ * {@code oviemoji:emoji}. This font is a bitmap font whose characters are the coloured Twemoji
+ * images. Because an emoji is thus a completely normal character, line wrapping, chat fading,
+ * click and hover events work like with any other text.
  *
- * <p>Die Umwandlung geschieht nur beim Anzeigen. Verschickt wird immer der Kurzcode.
+ * <p>The conversion only happens when displaying. The shortcode is always what gets sent.
  */
 public final class EmojiComponents {
 
-    /** Die Schrift mit den Emoji-Bildern, {@code assets/oviemoji/font/emoji.json}. */
+    /** The font with the emoji images, {@code assets/oviemoji/font/emoji.json}. */
     public static final FontDescription FONT =
             new FontDescription.Resource(Identifier.fromNamespaceAndPath("oviemoji", "emoji"));
 
@@ -32,24 +32,24 @@ public final class EmojiComponents {
     }
 
     /**
-     * Gibt ein einzelnes Emoji als Text zurueck, etwa fuer das Auswahlfenster.
+     * Returns a single emoji as text, e.g. for the picker.
      *
-     * @param emoji das Emoji
-     * @return ein Text aus genau einem Zeichen
+     * @param emoji the emoji
+     * @return a text of exactly one character
      */
     public static MutableComponent glyph(Emoji emoji) {
         return Component.literal(String.valueOf(emoji.glyph())).setStyle(PLAIN_EMOJI);
     }
 
     /**
-     * Ersetzt Kurzcodes und Unicode-Emojis in einem Text durch Emoji-Bilder.
+     * Replaces shortcodes and Unicode emojis in a text with emoji images.
      *
-     * <p>Enthaelt der Text kein Emoji, kommt genau dasselbe Objekt zurueck. Andernfalls wird der
-     * Text in flache Abschnitte zerlegt, die jeweils ihren vollstaendigen Stil behalten, also auch
-     * Farbe, Klick- und Hover-Ereignisse.
+     * <p>If the text contains no emoji, exactly the same object is returned. Otherwise the text is
+     * split into flat sections that each keep their full style, including colour, click and hover
+     * events.
      *
-     * @param text der Text
-     * @return der Text mit Emojis
+     * @param text the text
+     * @return the text with emojis
      */
     public static Component transform(Component text) {
         if (text == null || !EmojiText.containsEmoji(Emojis.index(), text.getString())) {
@@ -71,12 +71,12 @@ public final class EmojiComponents {
     }
 
     /**
-     * Leitet den Stil eines Emojis aus dem Stil des umgebenden Texts ab.
+     * Derives an emoji's style from the style of the surrounding text.
      *
-     * <p>Die Farbe wird auf Weiss gesetzt, weil Minecraft die Textfarbe mit dem Bild multipliziert:
-     * ein Emoji in grauem Chattext oder auf einem schwarz beschrifteten Schild waere sonst
-     * eingefaerbt. Der Schatten wird abgeschaltet, fett und kursiv ebenso, weil beides das Bild
-     * doppelt beziehungsweise schraeg zeichnen wuerde. Klick- und Hover-Ereignisse bleiben.
+     * <p>The colour is set to white, because Minecraft multiplies the text colour with the image:
+     * an emoji in grey chat text or on a sign with black writing would otherwise be tinted. Shadow
+     * is turned off, as are bold and italic, because they would draw the image twice or slanted.
+     * Click and hover events are kept.
      */
     private static Style emojiStyle(Style base) {
         return base.withFont(FONT)

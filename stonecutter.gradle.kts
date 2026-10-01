@@ -2,12 +2,12 @@ plugins {
     id("dev.kikugie.stonecutter")
 }
 
-// Die Version, die im Arbeitsbaum und in der IDE aktiv ist.
-// Stonecutter schaltet den Quellcode beim Wechsel an dieser Stelle um.
+// The version active in the working tree and the IDE.
+// Stonecutter switches the source code here when it changes.
 stonecutter active "1.21.11"
 
-// Sammelt eine Aufgabe ueber alle Knoten der Versionsmatrix, damit sich mit einem
-// Aufruf fuer jede Zielversion ein Jar bauen laesst.
+// Collects one task across all nodes of the version matrix, so a single call
+// builds a jar for every target version.
 stonecutter tasks {
     order("buildAndCollect")
 }

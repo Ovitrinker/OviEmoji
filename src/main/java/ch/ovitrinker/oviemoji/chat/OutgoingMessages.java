@@ -6,18 +6,17 @@ import java.util.Locale;
 import java.util.Set;
 
 /**
- * Bereitet eine Chatnachricht vor dem Senden auf.
+ * Prepares a chat message before sending.
  *
- * <p>Eingefuegte Unicode-Emojis werden zu Kurzcodes. Spieler ohne Mod sehen dann {@code :smile:}
- * statt eines leeren Kaestchens, Spieler mit Mod sehen in beiden Faellen das Bild. Die Umwandlung
- * passiert vor dem Signieren, die Nachricht bleibt also gueltig signiert.
+ * <p>Pasted Unicode emojis become shortcodes. Players without the mod then see {@code :smile:}
+ * instead of an empty box; players with the mod see the image in both cases. The conversion
+ * happens before signing, so the message stays validly signed.
  */
 public final class OutgoingMessages {
 
     /**
-     * Befehle, deren Text als Chatnachricht bei anderen Spielern ankommt. Bei allen anderen
-     * Befehlen bleibt die Eingabe unangetastet, damit etwa ein Item-Name mit Emoji so ankommt,
-     * wie er getippt wurde.
+     * Commands whose text arrives at other players as a chat message. For all other commands the
+     * input stays untouched, so that e.g. an item name with an emoji arrives exactly as typed.
      */
     private static final Set<String> MESSAGE_COMMANDS =
             Set.of("msg", "tell", "w", "me", "say", "teammsg", "tm");
@@ -26,10 +25,10 @@ public final class OutgoingMessages {
     }
 
     /**
-     * Wandelt Unicode-Emojis in einer Eingabe in Kurzcodes um.
+     * Converts Unicode emojis in an input into shortcodes.
      *
-     * @param input die Eingabe aus dem Chatfeld
-     * @return die Eingabe, wie sie gesendet werden soll
+     * @param input the input from the chat field
+     * @return the input as it should be sent
      */
     public static String prepare(String input) {
         if (input.startsWith("/")) {

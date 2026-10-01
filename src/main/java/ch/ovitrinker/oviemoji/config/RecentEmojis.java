@@ -17,14 +17,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Merkt sich die zuletzt benutzten Emojis fuer den ersten Reiter im Auswahlfenster.
+ * Remembers the most recently used emojis for the first tab in the picker.
  *
- * <p>Gespeichert werden die Kurznamen in {@code config/oviemoji.json}, damit die Liste auch nach
- * einem Update mit neu sortierter Emoji-Tabelle stimmt.
+ * <p>The short names are stored in {@code config/oviemoji.json}, so the list stays correct even
+ * after an update with a re-sorted emoji table.
  */
 public final class RecentEmojis {
 
-    /** Zwei volle Zeilen im Auswahlfenster. */
+    /** Two full rows in the picker. */
     public static final int MAX = 20;
 
     private static final Logger LOGGER = LoggerFactory.getLogger("oviemoji");
@@ -32,7 +32,7 @@ public final class RecentEmojis {
 
     private static final List<String> recent = new ArrayList<>();
 
-    /** Aufbau der Datei. */
+    /** Structure of the file. */
     private static final class Data {
         List<String> recent = new ArrayList<>();
     }
@@ -44,7 +44,7 @@ public final class RecentEmojis {
         return FabricLoader.getInstance().getConfigDir().resolve("oviemoji.json");
     }
 
-    /** Liest die Datei. Fehlt sie oder ist sie kaputt, beginnt die Liste leer. */
+    /** Reads the file. If it is missing or broken, the list starts empty. */
     public static void load() {
         Path file = file();
         if (!Files.exists(file)) {
@@ -61,14 +61,14 @@ public final class RecentEmojis {
                 }
             }
         } catch (IOException | RuntimeException e) {
-            LOGGER.warn("config/oviemoji.json konnte nicht gelesen werden", e);
+            LOGGER.warn("Could not read config/oviemoji.json", e);
         }
     }
 
     /**
-     * Setzt ein Emoji an den Anfang der Liste und speichert.
+     * Moves an emoji to the front of the list and saves.
      *
-     * @param emoji das benutzte Emoji
+     * @param emoji the emoji used
      */
     public static void add(Emoji emoji) {
         recent.remove(emoji.name());
@@ -79,7 +79,7 @@ public final class RecentEmojis {
         save();
     }
 
-    /** Gibt die zuletzt benutzten Emojis zurueck, das neueste zuerst. */
+    /** Returns the most recently used emojis, newest first. */
     public static List<Emoji> list() {
         List<Emoji> out = new ArrayList<>();
         for (String name : recent) {
@@ -100,7 +100,7 @@ public final class RecentEmojis {
                 GSON.toJson(data, writer);
             }
         } catch (IOException e) {
-            LOGGER.warn("config/oviemoji.json konnte nicht geschrieben werden", e);
+            LOGGER.warn("Could not write config/oviemoji.json", e);
         }
     }
 }

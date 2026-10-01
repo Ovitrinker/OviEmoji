@@ -6,10 +6,10 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.gen.Accessor;
 
 /**
- * Gibt das Textfeld des Schild-Bildschirms frei.
+ * Exposes the text field of the sign screen.
  *
- * <p>Ein Accessor statt eines {@code @Shadow}, weil das Feld ab 26.3 {@code final} ist und davor
- * nicht.
+ * <p>An accessor instead of {@code @Shadow}, because the field is {@code final} from 26.3 on and
+ * not before.
  */
 @Mixin(AbstractSignEditScreen.class)
 public interface SignEditScreenAccessor {

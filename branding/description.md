@@ -1,10 +1,9 @@
 <!--
-Projekttext fuer CurseForge und Modrinth. Beide Plattformen verlangen Englisch, deshalb ist
-diese Datei englisch. Alles hier steht so auch in der README - keine Angabe darf ueber das
-hinausgehen, was der Mod wirklich kann.
+Project text for CurseForge and Modrinth. Everything here is also in the README - nothing may
+go beyond what the mod actually does.
 
-Der Block "SUMMARY" gehoert ins Feld "Summary", alles ab "DESCRIPTION" in die Beschreibung.
-Die Angaben fuer die Formularfelder stehen in branding/platform-settings.md.
+The "SUMMARY" block goes into the "Summary" field, everything from "DESCRIPTION" on into the
+description. The values for the form fields are in branding/platform-settings.md.
 -->
 
 ## SUMMARY

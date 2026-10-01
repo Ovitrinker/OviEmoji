@@ -10,14 +10,13 @@ import java.util.Locale;
 import java.util.Map;
 
 /**
- * Alle Emojis der Mod mit den Nachschlagewegen, die Chat, Auswahlfenster und
- * Autovervollstaendigung brauchen.
+ * All of the mod's emojis with the lookups that chat, picker and autocomplete need.
  *
- * <p>Die Klasse kennt keine Minecraft-Klassen und laesst sich darum mit reinem JUnit pruefen.
+ * <p>The class doesn't know any Minecraft classes and can therefore be tested with plain JUnit.
  */
 public final class EmojiIndex {
 
-    /** Die Kategorien in der Reihenfolge der Reiter im Auswahlfenster. */
+    /** The categories in the order of the tabs in the picker. */
     public static final List<String> CATEGORIES = List.of(
             "smileys", "people", "nature", "food", "travel", "activities", "objects", "symbols", "flags");
 
@@ -30,9 +29,9 @@ public final class EmojiIndex {
     private final int longestUnicode;
 
     /**
-     * Baut den Index aus den Zeilen der TSV-Datei.
+     * Builds the index from the lines of the TSV file.
      *
-     * @param lines die Zeilen; leere Zeilen und Zeilen mit {@code #} werden uebersprungen
+     * @param lines the lines; empty lines and lines starting with {@code #} are skipped
      */
     public EmojiIndex(List<String> lines) {
         List<Emoji> list = new ArrayList<>();
@@ -62,9 +61,9 @@ public final class EmojiIndex {
             }
             byCategory.computeIfAbsent(emoji.category(), k -> new ArrayList<>()).add(emoji);
 
-            // Die Form mit U+FE0F gilt immer. Ohne ihn wird ein Emoji nur erkannt, wenn es aus
-            // mehreren Zeichen besteht: ein einzelnes Zeichen wie das Copyright-Zeichen oder ein
-            // Pfeil ist ohne U+FE0F gewoehnlicher Text und soll nicht zum Bild werden.
+            // The form with U+FE0F always counts. Without it, an emoji is only recognised if it
+            // consists of several characters: a single character like the copyright sign or an
+            // arrow is ordinary text without U+FE0F and must not become an image.
             byUnicode.putIfAbsent(emoji.unicode(), emoji);
             String bare = emoji.unicode().replace(VARIATION_SELECTOR, "");
             if (!bare.equals(emoji.unicode()) && bare.codePointCount(0, bare.length()) >= 2) {
@@ -75,32 +74,32 @@ public final class EmojiIndex {
         this.longestUnicode = longest;
     }
 
-    /** Gibt alle Emojis in der Reihenfolge der Datei zurueck. */
+    /** Returns all emojis in file order. */
     public List<Emoji> all() {
         return all;
     }
 
-    /** Gibt die Emojis einer Kategorie zurueck, oder eine leere Liste. */
+    /** Returns the emojis of a category, or an empty list. */
     public List<Emoji> category(String category) {
         return byCategory.getOrDefault(category, List.of());
     }
 
     /**
-     * Sucht ein Emoji ueber seinen Kurznamen, Gross- und Kleinschreibung egal.
+     * Looks up an emoji by its short name, case-insensitively.
      *
-     * @param alias der Kurzname ohne Doppelpunkte
-     * @return das Emoji, oder {@code null}
+     * @param alias the short name without colons
+     * @return the emoji, or {@code null}
      */
     public Emoji byAlias(String alias) {
         return byAlias.get(alias.toLowerCase(Locale.ROOT));
     }
 
     /**
-     * Sucht das laengste Unicode-Emoji, das an einer Stelle beginnt.
+     * Finds the longest Unicode emoji starting at a position.
      *
-     * @param text  der Text, Hautton-Zeichen muessen bereits entfernt sein
-     * @param start die Startstelle
-     * @return die Laenge des Treffers in {@code char}, oder 0
+     * @param text  the text, skin tone characters must already be removed
+     * @param start the start position
+     * @return the length of the match in {@code char}s, or 0
      */
     int unicodeMatchLength(String text, int start) {
         int max = Math.min(longestUnicode, text.length() - start);
@@ -112,30 +111,30 @@ public final class EmojiIndex {
         return 0;
     }
 
-    /** Gibt das Emoji zu genau dieser Unicode-Zeichenfolge zurueck, oder {@code null}. */
+    /** Returns the emoji for exactly this Unicode sequence, or {@code null}. */
     Emoji byUnicode(String unicode) {
         return byUnicode.get(unicode);
     }
 
     /**
-     * Ein Vorschlag der Autovervollstaendigung.
+     * An autocomplete suggestion.
      *
-     * @param emoji das Emoji
-     * @param alias der Kurzname, der zur Eingabe gepasst hat
+     * @param emoji the emoji
+     * @param alias the short name that matched the input
      */
     public record Suggestion(Emoji emoji, String alias) {
     }
 
     /**
-     * Sucht Emojis zu einem angefangenen Kurznamen.
+     * Finds emojis for a started short name.
      *
-     * <p>Rangfolge: exakter Kurzname, Kurzname beginnt mit der Eingabe, ein Wort im Kurznamen
-     * beginnt damit, der Kurzname enthaelt sie, ein Stichwort beginnt damit. Innerhalb einer Stufe
-     * kommen kurze Namen vor langen.
+     * <p>Ranking: exact short name, short name starts with the input, a word in the short name
+     * starts with it, the short name contains it, a keyword starts with it. Within a rank, short
+     * names come before long ones.
      *
-     * @param query die Eingabe ohne Doppelpunkt
-     * @param limit die hoechste Anzahl Vorschlaege
-     * @return die Vorschlaege, bester zuerst
+     * @param query the input without colon
+     * @param limit the maximum number of suggestions
+     * @return the suggestions, best first
      */
     public List<Suggestion> search(String query, int limit) {
         String q = query.toLowerCase(Locale.ROOT);

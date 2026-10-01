@@ -9,7 +9,7 @@ out/
 # Stonecutter
 .stonecutter/
 
-# Entwicklungsclient
+# Dev client
 run/
 
 # IntelliJ IDEA
@@ -27,8 +27,11 @@ bin/
 # Visual Studio Code
 .vscode/
 
-# Betriebssystem
+# Operating system
 .DS_Store
 Thumbs.db
 tools/cache/
 run-server/
+
+# Python
+__pycache__/

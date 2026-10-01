@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Zerlegt Text in gewoehnliche Abschnitte und Emojis.
+ * Splits text into ordinary sections and emojis.
  *
- * <p>Erkannt werden Kurzcodes wie {@code :smile:} und echte Unicode-Emojis. Ein unbekannter
- * Kurzcode bleibt als Text stehen, damit etwa eine Uhrzeit wie {@code 12:30:15} unberuehrt bleibt.
+ * <p>Shortcodes like {@code :smile:} and real Unicode emojis are recognised. An unknown shortcode
+ * stays as text, so that e.g. a time like {@code 12:30:15} stays untouched.
  */
 public final class EmojiText {
 
     /**
-     * Ein Stueck des zerlegten Texts: genau eines der beiden Felder ist gesetzt.
+     * A piece of the split text: exactly one of the two fields is set.
      *
-     * @param text  gewoehnlicher Text, oder {@code null}
-     * @param emoji ein Emoji, oder {@code null}
+     * @param text  ordinary text, or {@code null}
+     * @param emoji an emoji, or {@code null}
      */
     public record Piece(String text, Emoji emoji) {
     }
@@ -24,11 +24,11 @@ public final class EmojiText {
     }
 
     /**
-     * Zerlegt einen Text.
+     * Splits a text.
      *
-     * @param index der Emoji-Index
-     * @param input der Text
-     * @return die Stuecke in Reihenfolge; ohne Emoji genau ein Textstueck mit dem Originaltext
+     * @param index the emoji index
+     * @param input the text
+     * @return the pieces in order; without an emoji exactly one text piece with the original text
      */
     public static List<Piece> parse(EmojiIndex index, String input) {
         List<Piece> pieces = new ArrayList<>();
@@ -67,18 +67,18 @@ public final class EmojiText {
         }
         flush(pieces, plain);
         if (pieces.size() == 1 && pieces.get(0).emoji() == null) {
-            // Nichts gefunden: den Originaltext zurueckgeben, nicht die Fassung ohne Hauttoene
+            // Nothing found: return the original text, not the version without skin tones
             pieces.set(0, new Piece(input, null));
         }
         return pieces;
     }
 
     /**
-     * Prueft, ob ein Text mindestens ein Emoji enthaelt.
+     * Checks whether a text contains at least one emoji.
      *
-     * @param index der Emoji-Index
-     * @param input der Text
-     * @return {@code true}, wenn {@link #parse} ein Emoji liefern wuerde
+     * @param index the emoji index
+     * @param input the text
+     * @return {@code true} if {@link #parse} would return an emoji
      */
     public static boolean containsEmoji(EmojiIndex index, String input) {
         for (Piece piece : parse(index, input)) {
@@ -90,14 +90,14 @@ public final class EmojiText {
     }
 
     /**
-     * Ersetzt Unicode-Emojis durch ihre Kurzcodes.
+     * Replaces Unicode emojis with their shortcodes.
      *
-     * <p>So kommt eine Nachricht bei Spielern ohne Mod als lesbares {@code :smile:} an statt als
-     * leeres Kaestchen. Kurzcodes und gewoehnlicher Text bleiben unveraendert.
+     * <p>That way a message arrives at players without the mod as a readable {@code :smile:}
+     * instead of an empty box. Shortcodes and ordinary text stay unchanged.
      *
-     * @param index der Emoji-Index
-     * @param input der Text
-     * @return der Text mit Kurzcodes
+     * @param index the emoji index
+     * @param input the text
+     * @return the text with shortcodes
      */
     public static String toShortcodes(EmojiIndex index, String input) {
         if (!hasNonAscii(input)) {
@@ -124,7 +124,7 @@ public final class EmojiText {
         return changed ? out.toString() : input;
     }
 
-    /** Ein ueberzaehliges U+FE0F nach einem Treffer wuerde sonst als leeres Kaestchen gezeichnet. */
+    /** A surplus U+FE0F after a match would otherwise be drawn as an empty box. */
     private static int skipVariationSelector(String text, int i) {
         return i < text.length() && text.charAt(i) == '️' ? i + 1 : i;
     }
@@ -138,7 +138,7 @@ public final class EmojiText {
         return false;
     }
 
-    /** Von den ASCII-Zeichen beginnen nur die Tastenkappen wie 1-FE0F-20E3 ein Emoji. */
+    /** Of the ASCII characters, only keycaps like 1-FE0F-20E3 start an emoji. */
     private static boolean mayStartUnicodeEmoji(char c) {
         return c > 0x7F || c == '#' || c == '*' || (c >= '0' && c <= '9');
     }
@@ -156,10 +156,10 @@ public final class EmojiText {
     }
 
     /**
-     * Entfernt die Hautton-Zeichen U+1F3FB bis U+1F3FF.
+     * Removes the skin tone characters U+1F3FB to U+1F3FF.
      *
-     * <p>Die Mod fuehrt jedes Emoji nur in der gelben Grundform. Ein Emoji mit Hautton wird so zur
-     * Grundform, statt zu einem Bild mit einem leeren Kaestchen dahinter.
+     * <p>The mod only has each emoji in its yellow base form. That way an emoji with a skin tone
+     * becomes the base form instead of an image followed by an empty box.
      */
     static String stripSkinTones(String text) {
         if (text.indexOf('\uD83C') < 0) {

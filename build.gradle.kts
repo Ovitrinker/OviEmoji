@@ -1,9 +1,9 @@
 plugins {
-    // Wendet je nach Minecraft-Version die passende Loom-Variante an
+    // Applies the matching Loom variant depending on the Minecraft version
     id("dev.kikugie.loom-back-compat")
 }
 
-// group darf nicht gesetzt werden - Stonecutter/Loom regeln das
+// group must not be set - Stonecutter/Loom handle it
 version = "${property("mod.version")}+${sc.current.version}"
 base.archivesName = property("mod.id") as String
 
@@ -19,22 +19,22 @@ repositories {
 
 dependencies {
     minecraft("com.mojang:minecraft:${sc.current.version}")
-    // Mojang-Mappings auch auf der obfuskierten Version 1.21.11 (Yarn ist eingestellt)
+    // Mojang mappings on the obfuscated 1.21.11 too (Yarn is discontinued)
     loomx.applyMojangMappings()
 
-    // "mod..."-Konfigurationen auch auf 26.1+ - loom-back-compat setzt sie um
+    // "mod..." configurations on 26.1+ too - loom-back-compat translates them
     modImplementation("net.fabricmc:fabric-loader:${property("deps.fabric_loader")}")
 
-    // Die Mod braucht zur Kompilierzeit kein Fabric-API-Modul. Zur Laufzeit laedt die
-    // Fabric API (Resource Loader) die Schrift und die Uebersetzungen aus dem Mod-Jar.
+    // The mod doesn't need any Fabric API module at compile time. At runtime the
+    // Fabric API (Resource Loader) loads the font and translations from the mod jar.
 
-    // Nur fuer den Entwicklungsclient: die vollstaendige Fabric API, damit das Bundle-Mod
-    // "fabric-api" vorhanden ist, das die fabric.mod.json voraussetzt. Landet nicht im Jar.
+    // Dev client only: the full Fabric API, so the "fabric-api" bundle mod required by
+    // fabric.mod.json is present. Not included in the jar.
     val fabricApiVersion: String = sc.properties["deps.fabric_api"]
     modLocalRuntime("net.fabricmc.fabric-api:fabric-api:$fabricApiVersion")
 
-    // EmojiIndex und EmojiText kennen keine Minecraft-Klassen und lassen
-    // sich deshalb mit reinem JUnit pruefen, ohne einen Client zu starten.
+    // EmojiIndex and EmojiText don't know any Minecraft classes and can
+    // therefore be tested with plain JUnit, without starting a client.
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
@@ -44,7 +44,7 @@ loom {
     runConfigs.all {
         preferGradleTask = true
         generateRunConfig = true
-        runDirectory = rootProject.file("run") // Gemeinsames Run-Verzeichnis aller Versionen
+        runDirectory = rootProject.file("run") // Shared run directory for all versions
         jvmArguments.add("-Dmixin.debug.export=true")
     }
 }
@@ -90,7 +90,7 @@ tasks {
 
     register<Copy>("buildAndCollect") {
         group = "build"
-        description = "Baut das Mod-Jar und sammelt es unter build/libs/{mod version}/"
+        description = "Builds the mod jar and collects it in build/libs/{mod version}/"
 
         inputs.property("version", project.property("mod.version"))
         from(loomx.modJar.flatMap { it.archiveFile })

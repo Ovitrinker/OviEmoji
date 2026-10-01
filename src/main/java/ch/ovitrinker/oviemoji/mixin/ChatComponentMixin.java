@@ -8,14 +8,13 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
 /**
- * Setzt Emojis in jede Zeile ein, die im Chat landet: Spielernachrichten, Systemmeldungen,
- * Befehlsausgaben.
+ * Inserts emojis into every line that ends up in chat: player messages, system messages, command
+ * output.
  *
- * <p>Alle Wege in den Chat enden in einer einzigen {@code addMessage}-Methode. Deren Signatur hat
- * sich geaendert: in 1.21.11 ist sie oeffentlich mit {@code (Component, MessageSignature,
- * GuiMessageTag)}, ab 26.2 privat mit einer zusaetzlichen {@code GuiMessageSource}. Die Nachricht
- * wird hier ersetzt, bevor sie gespeichert und umgebrochen wird; darum stimmen Zeilenumbrueche
- * auch nach dem Aendern der Chatbreite.
+ * <p>All paths into the chat end in a single {@code addMessage} method. Its signature has changed:
+ * in 1.21.11 it is public with {@code (Component, MessageSignature, GuiMessageTag)}, from 26.2 on
+ * private with an additional {@code GuiMessageSource}. The message is replaced here before it is
+ * stored and wrapped; that's why line breaks are still correct after changing the chat width.
  */
 @Mixin(ChatComponent.class)
 public abstract class ChatComponentMixin {

@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-/** Prueft Zerlegung, Umwandlung und Suche gegen die echte {@code emoji.tsv}. */
+/** Tests splitting, conversion and search against the real {@code emoji.tsv}. */
 class EmojiTextTest {
 
     private static EmojiIndex index;
@@ -28,7 +28,7 @@ class EmojiTextTest {
         }
     }
 
-    /** Schreibt die Stuecke kompakt: Text wie er ist, Emojis als [kurzname]. */
+    /** Writes the pieces compactly: text as is, emojis as [shortname]. */
     private static String render(String input) {
         return EmojiText.parse(index, input).stream()
                 .map(p -> p.emoji() != null ? "[" + p.emoji().name() + "]" : p.text())
@@ -71,7 +71,7 @@ class EmojiTextTest {
 
     @Test
     void textStyleCharactersNeedVariationSelector() {
-        // Ohne U+FE0F bleiben Copyright-Zeichen und Herz gewoehnlicher Text
+        // Without U+FE0F the copyright sign and heart stay ordinary text
         assertEquals("© 2026", render("© 2026"));
         assertEquals("[copyright]", render("©️"));
         assertEquals("[heart]", render("❤️"));
@@ -117,7 +117,7 @@ class EmojiTextTest {
 
     @Test
     void searchFallsBackToTags() {
-        // "happy" ist kein Kurzname, aber ein Stichwort von :grinning:
+        // "happy" isn't a short name, but a keyword of :grinning:
         List<EmojiIndex.Suggestion> hits = index.search("happy", 20);
         assertTrue(hits.stream().anyMatch(h -> h.emoji().name().equals("grinning")));
     }

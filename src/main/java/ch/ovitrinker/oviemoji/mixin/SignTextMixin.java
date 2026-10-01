@@ -10,15 +10,15 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
 /**
- * Zeigt Emojis auf Schildern und Haengeschildern.
+ * Shows emojis on signs and hanging signs.
  *
- * <p>Der Schild-Renderer holt die Zeilen ueber {@code SignText.getRenderMessages} und uebergibt
- * dabei die Funktion, die eine Zeile in zeichenbare Zeichen umsetzt. Diese Funktion wird hier
- * umhuellt. Minecraft speichert das Ergebnis im {@code SignText} zwischen, die Umwandlung laeuft
- * also einmal pro Schild und nicht in jedem Bild.
+ * <p>The sign renderer fetches the lines via {@code SignText.getRenderMessages}, passing the
+ * function that turns a line into drawable characters. That function is wrapped here. Minecraft
+ * caches the result in the {@code SignText}, so the conversion runs once per sign and not every
+ * frame.
  *
- * <p>Gespeichert und an den Server geschickt wird weiter der Kurzcode. Der Bearbeitungsbildschirm
- * zeigt ihn deshalb auch als Text.
+ * <p>The shortcode is still what is stored and sent to the server. That's why the editing screen
+ * shows it as text.
  */
 @Mixin(SignText.class)
 public abstract class SignTextMixin {

@@ -3,23 +3,23 @@ package ch.ovitrinker.oviemoji.emoji;
 import java.util.List;
 
 /**
- * Ein einzelnes Emoji, wie es in {@code assets/oviemoji/emoji.tsv} steht.
+ * A single emoji, as listed in {@code assets/oviemoji/emoji.tsv}.
  *
- * @param glyph    das Zeichen aus dem privaten Unicode-Bereich, unter dem die Schrift der Mod das
- *                 Bild fuehrt. Es wird nie verschickt, nur lokal gezeichnet.
- * @param unicode  das echte Unicode-Emoji
- * @param category der Kurzname der Kategorie, etwa {@code smileys}
- * @param aliases  die Kurznamen ohne Doppelpunkte, der erste ist der bevorzugte
- * @param tags     zusaetzliche Stichwoerter fuer die Suche
+ * @param glyph    the character from the Unicode private use area under which the mod's font
+ *                 holds the image. It is never sent, only drawn locally.
+ * @param unicode  the real Unicode emoji
+ * @param category the short name of the category, e.g. {@code smileys}
+ * @param aliases  the short names without colons, the first one is the preferred one
+ * @param tags     additional keywords for searching
  */
 public record Emoji(char glyph, String unicode, String category, List<String> aliases, List<String> tags) {
 
-    /** Gibt den bevorzugten Kurznamen zurueck. */
+    /** Returns the preferred short name. */
     public String name() {
         return aliases.get(0);
     }
 
-    /** Gibt den bevorzugten Kurzcode samt Doppelpunkten zurueck, etwa {@code :smile:}. */
+    /** Returns the preferred shortcode including colons, e.g. {@code :smile:}. */
     public String shortcode() {
         return ":" + aliases.get(0) + ":";
     }

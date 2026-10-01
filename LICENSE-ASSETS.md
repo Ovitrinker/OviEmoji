@@ -1,19 +1,19 @@
-# Fremde Inhalte in OviEmoji
+# Third-party content in OviEmoji
 
-## Emoji-Grafiken: Twemoji
+## Emoji graphics: Twemoji
 
-Die Emoji-Bilder in `src/main/resources/assets/oviemoji/textures/font/emoji.png` sind aus
-Twemoji erzeugt (verkleinert auf 32 x 32 Pixel und zu einem Atlas zusammengesetzt).
+The emoji images in `src/main/resources/assets/oviemoji/textures/font/emoji.png` are generated
+from Twemoji (scaled down to 32 x 32 pixels and combined into an atlas).
 
-- Twemoji von Twitter/X und Mitwirkenden, fortgefuehrt von jdecked
-- Quelle: https://github.com/jdecked/twemoji (Version 17.0.3)
-- Lizenz der Grafiken: CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/
+- Twemoji by Twitter/X and contributors, continued by jdecked
+- Source: https://github.com/jdecked/twemoji (version 17.0.3)
+- License of the graphics: CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/
 
-## Emoji-Namen: gemoji
+## Emoji names: gemoji
 
-Kurznamen, Kategorien und Stichwoerter in `src/main/resources/assets/oviemoji/emoji.tsv` stammen
-aus gemoji.
+Short names, categories and keywords in `src/main/resources/assets/oviemoji/emoji.tsv` come from
+gemoji.
 
 - Copyright (c) 2019 GitHub, Inc.
-- Quelle: https://github.com/github/gemoji
-- Lizenz: MIT
+- Source: https://github.com/github/gemoji
+- License: MIT

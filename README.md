@@ -1,101 +1,98 @@
 # OviEmoji
 
-Emojis im Minecraft-Chat und auf Schildern, im Einzelspieler wie im Mehrspieler.
+Emojis in Minecraft chat and on signs, in singleplayer and multiplayer.
 
-- **Autor:** Ovitrinker
-- **Lizenz:** Ovitrinker (siehe `LICENSE`), fremde Inhalte siehe `LICENSE-ASSETS.md`
-- **Mod-ID:** `oviemoji`, Package `ch.ovitrinker.oviemoji`
+- **Author:** Ovitrinker
+- **License:** all rights reserved (see `LICENSE`), third-party content see `LICENSE-ASSETS.md`
+- **Mod ID:** `oviemoji`, package `ch.ovitrinker.oviemoji`
 - **Download:** https://mods.ovitrinker.ch/oviemoji/
-- **Texte für CurseForge/Modrinth:** `branding/` (Beschreibung, Formularfelder, Changelog, Logo)
+- **Texts for CurseForge/Modrinth:** `branding/` (description, form fields, changelog, logo)
 
-## Wie es funktioniert
+## How it works
 
-Verschickt werden nur gewöhnliche **Kurzcodes** wie `:smile:` oder `:fire:`. Erst beim Anzeigen
-macht die Mod daraus ein Bild.
+Only ordinary **shortcodes** like `:smile:` or `:fire:` are sent. The mod turns them into an image
+only when displaying them.
 
-| Wer | sieht |
+| Who | sees |
 |---|---|
-| Spieler mit OviEmoji | das Emoji-Bild |
-| Spieler ohne Mod | den Kurzcode als Text, z. B. `:smile:` |
+| Players with OviEmoji | the emoji image |
+| Players without the mod | the shortcode as text, e.g. `:smile:` |
 
-Die Mod ist **rein clientseitig**. Der Server braucht nichts (Vanilla, Paper, Einzelspieler).
-Weil die Nachricht selbst nicht verändert wird, gibt es keine Probleme mit der Chat-Signierung.
+The mod is **purely client-side**. The server needs nothing (vanilla, Paper, singleplayer).
+Because the message itself isn't changed, there are no problems with chat signing.
 
-**Eingefügte Unicode-Emojis** (etwa 😀 aus der Zwischenablage) wandelt die Mod vor dem Senden in
-Kurzcodes um. So sehen Spieler ohne Mod keine leeren Kästchen. Das gilt für normale
-Chatnachrichten und für `/msg`, `/tell`, `/w`, `/me`, `/say`, `/teammsg` und `/tm`. Andere Befehle
-bleiben unangetastet. **Empfangene** Unicode-Emojis, etwa von einer Discord-Brücke, zeigt die Mod
-ebenfalls als Bild an.
+**Pasted Unicode emojis** (e.g. 😀 from the clipboard) are converted to shortcodes before
+sending. That way players without the mod don't see empty boxes. This applies to normal chat
+messages and to `/msg`, `/tell`, `/w`, `/me`, `/say`, `/teammsg` and `/tm`. Other commands are left
+untouched. **Received** Unicode emojis, e.g. from a Discord bridge, are shown as images too.
 
-Emojis mit Hautton werden in der gelben Grundform gezeigt. Einzelne Zeichen wie © oder ↔ werden
-nur mit dem Emoji-Selektor U+FE0F zum Bild. Ohne ihn bleiben sie gewöhnlicher Text.
+Emojis with skin tones are shown in their yellow base form. Single characters like © or ↔ only
+become an image with the emoji selector U+FE0F. Without it they stay ordinary text.
 
-## Bedienung
+## Usage
 
-- **Emoji-Knopf** rechts über dem Chat-Eingabefeld: Er öffnet ein Auswahlfenster mit 10 Reitern
-  (zuletzt benutzt plus 9 Kategorien). Ein Klick fügt den Kurzcode ein. Das Mausrad blättert,
-  und die Fusszeile zeigt den Kurzcode unter der Maus. Escape schliesst zuerst das Fenster.
-- **Autovervollständigung:** Nach `:` und mindestens zwei Buchstaben, etwa `:fi`, erscheinen bis
-  zu 8 Vorschläge. Pfeil hoch/runter wählt, Tab oder Enter setzt ein, Escape blendet die Liste
-  aus. Der Doppelpunkt muss am Anfang oder nach einem Leerzeichen stehen, damit `12:30` nichts
-  auslöst. In Befehlen (`/…`) bleibt die Liste aus.
-- **Schilder:** `:smile:` auf ein Schild schreiben oder den Emoji-Knopf unten rechts im
-  Schild-Bildschirm benutzen. Spieler mit Mod sehen das Bild, der Bearbeitungsbildschirm zeigt den
-  Kurzcode. Weil eine Schildzeile nur etwa 90 Pixel breit ist, fügt die Auswahl dort den
-  **kürzesten** Kurznamen ein (`:+1:` statt `:thumbsup:`). Passt er nicht mehr in die Zeile,
-  passiert nichts.
+- **Emoji button** to the right above the chat input: opens a picker with 10 tabs (recently used
+  plus 9 categories). A click inserts the shortcode. The mouse wheel scrolls, and the footer shows
+  the shortcode under the mouse. Escape closes the picker first.
+- **Autocomplete:** after `:` and at least two letters, e.g. `:fi`, up to 8 suggestions appear.
+  Arrow up/down selects, Tab or Enter inserts, Escape hides the list. The colon has to be at the
+  start or after a space, so `12:30` doesn't trigger anything. The list stays off in commands
+  (`/…`).
+- **Signs:** write `:smile:` on a sign or use the emoji button at the bottom right of the sign
+  screen. Players with the mod see the image, the editing screen shows the shortcode. Because a
+  sign line is only about 90 pixels wide, the picker inserts the **shortest** short name there
+  (`:+1:` instead of `:thumbsup:`). If it doesn't fit on the line anymore, nothing happens.
 
-Die zuletzt benutzten Emojis stehen in `config/oviemoji.json`.
+Recently used emojis are stored in `config/oviemoji.json`.
 
-## Technik
+## Technical details
 
-- Die Emojis sind eine **Bitmap-Schrift** (`assets/oviemoji/font/emoji.json`). Jedes Emoji ist
-  ein Zeichen aus dem privaten Unicode-Bereich ab U+E000, dessen Glyphe das farbige Twemoji-Bild
-  ist (Atlas `textures/font/emoji.png`, 32 × 32 Pixel pro Zelle). Damit funktionieren
-  Zeilenumbruch, Ausblenden, Klick- und Hover-Ereignisse wie bei normalem Text.
-- `ChatComponentMixin` ersetzt Kurzcodes in jeder Chatzeile vor dem Speichern.
-- `SignTextMixin` umhüllt die Formatierfunktion von `SignText.getRenderMessages`.
-- `SignEditScreenMixin` setzt dasselbe Auswahlfenster (`gui/EmojiPicker`) auf den
-  Schild-Bildschirm. Das Textfeld kommt über `SignEditScreenAccessor`, weil es ab 26.3 `final` ist.
-- `ChatScreenMixin` hängt Knopf, Auswahlfenster und Vorschläge an und wandelt beim Senden um.
-- `EmojiIndex` und `EmojiText` kennen keine Minecraft-Klassen und sind mit JUnit getestet
+- The emojis are a **bitmap font** (`assets/oviemoji/font/emoji.json`). Each emoji is a character
+  from the Unicode private use area starting at U+E000, whose glyph is the coloured Twemoji image
+  (atlas `textures/font/emoji.png`, 32 × 32 pixels per cell). That way line wrapping, fading,
+  click and hover events work just like with normal text.
+- `ChatComponentMixin` replaces shortcodes in every chat line before it is stored.
+- `SignTextMixin` wraps the formatting function of `SignText.getRenderMessages`.
+- `SignEditScreenMixin` puts the same picker (`gui/EmojiPicker`) on the sign screen. The text field
+  is accessed via `SignEditScreenAccessor`, because it is `final` from 26.3 on.
+- `ChatScreenMixin` attaches button, picker and suggestions and converts on send.
+- `EmojiIndex` and `EmojiText` don't know any Minecraft classes and are tested with JUnit
   (`src/test`).
 
-### Emoji-Daten neu erzeugen
+### Regenerating the emoji data
 
 ```
 python tools/build_emoji.py
 ```
 
-Das Skript lädt die Namen aus gemoji und die Bilder aus Twemoji 17.0.3 (Cache in `tools/cache/`)
-und schreibt Atlas, Schrift und `emoji.tsv` neu. Stand: 1870 Emojis.
+The script downloads the names from gemoji and the images from Twemoji 17.0.3 (cached in
+`tools/cache/`) and rewrites the atlas, the font and `emoji.tsv`. Current count: 1870 emojis.
 
-## Versionsmatrix
+## Version matrix
 
-| Build-Knoten | Minecraft | Java | Fabric API |
+| Build node | Minecraft | Java | Fabric API |
 |---|---|---|---|
 | `1.21.11` | 1.21.11 | 21 | `0.141.6+1.21.11` |
 | `26.2.x` | 26.2 | 25 | `0.157.0+26.2` |
 | `26.3.x` | 26.3 | 25 | `0.161.0+26.3` |
 
-Die APIs wurden per `javap` gegen die gemappten Jars im Loom-Cache geprüft. Unterschiede:
+The APIs were checked with `javap` against the mapped jars in the Loom cache. Differences:
 
-- `ChatComponent.addMessage`: In 1.21.11 ist die Methode `public (Component, MessageSignature,
-  GuiMessageTag)`. Ab 26.2 ist sie `private` und hat zusätzlich einen `GuiMessageSource`-Parameter.
-- Zeichnen: In 1.21.11 `render(GuiGraphics…)` mit `drawString`, ab 26.1
-  `extractRenderState(GuiGraphicsExtractor…)` mit `text`. Das ist in `compat/Gfx` gekapselt.
-- Gleich in allen Versionen: `FontDescription.Resource`, `Identifier`, `Style.withShadowColor`,
-  `KeyEvent.isUp/isDown/isConfirmation/isCycleFocus/isEscape` und `SignText.getRenderMessages`.
+- `ChatComponent.addMessage`: in 1.21.11 the method is `public (Component, MessageSignature,
+  GuiMessageTag)`. From 26.2 on it is `private` and has an additional `GuiMessageSource` parameter.
+- Drawing: in 1.21.11 `render(GuiGraphics…)` with `drawString`, from 26.1 on
+  `extractRenderState(GuiGraphicsExtractor…)` with `text`. This is wrapped in `compat/Gfx`.
+- The same in all versions: `FontDescription.Resource`, `Identifier`, `Style.withShadowColor`,
+  `KeyEvent.isUp/isDown/isConfirmation/isCycleFocus/isEscape` and `SignText.getRenderMessages`.
 
-## Bauen
+## Building
 
 ```
-cd "C:\dev\Minecraft Mods\OviEmoji"
 gradlew.bat "1.21.11:build"
 gradlew.bat "26.2.x:build"
 gradlew.bat "26.3.x:build"
 ```
 
-Jars: `versions/<Knoten>/build/libs/oviemoji-1.0.0+<Version>.jar` (ohne `-sources`).
+Jars: `versions/<node>/build/libs/oviemoji-1.0.0+<version>.jar` (without `-sources`).
 
-Tests: `gradlew.bat "1.21.11:test"`. Entwicklungsclient: `gradlew.bat "26.3.x:runClient"`.
+Tests: `gradlew.bat "1.21.11:test"`. Dev client: `gradlew.bat "26.3.x:runClient"`.

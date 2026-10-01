@@ -5,15 +5,15 @@ import ch.ovitrinker.oviemoji.emoji.Emojis;
 import net.fabricmc.api.ClientModInitializer;
 
 /**
- * Der Einstiegspunkt der Mod auf der Client-Seite.
+ * The mod's client-side entry point.
  *
- * <p>OviEmoji ist rein clientseitig. Verschickt werden nur gewoehnliche Kurzcodes wie
- * {@code :smile:}; erst beim Anzeigen macht die Mod daraus ein Bild. Ein Server braucht die Mod
- * nicht, und Spieler ohne Mod lesen den Kurzcode als Text.
+ * <p>OviEmoji is purely client-side. Only ordinary shortcodes like {@code :smile:} are sent; the
+ * mod turns them into an image only when displaying them. A server doesn't need the mod, and
+ * players without the mod read the shortcode as text.
  */
 public class OviEmojiClient implements ClientModInitializer {
 
-    /** Die Mod-ID, wie sie auch in der {@code fabric.mod.json} steht. */
+    /** The mod ID, as also listed in {@code fabric.mod.json}. */
     public static final String MOD_ID = "oviemoji";
 
     @Override

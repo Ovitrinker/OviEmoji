@@ -3,7 +3,7 @@
   "id": "${id}",
   "version": "${version}",
   "name": "${name}",
-  "description": "Emojis im Chat und auf Schildern, mit Auswahlfenster und Autovervollständigung. Verschickt werden Kurzcodes wie :smile:, Spieler mit der Mod sehen das Bild, Spieler ohne Mod den Kurzcode. Der Server braucht nichts. Emoji-Grafiken: Twemoji, CC-BY 4.0.",
+  "description": "Emojis in chat and on signs, with a picker and autocomplete. Shortcodes like :smile: are sent; players with the mod see the image, players without it see the shortcode. The server needs nothing. Emoji graphics: Twemoji, CC-BY 4.0.",
   "authors": [
     "Ovitrinker"
   ],

@@ -10,11 +10,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Haelt den einen Emoji-Index der Mod.
+ * Holds the mod's single emoji index.
  *
- * <p>Die Liste wird direkt aus dem Mod-Jar gelesen und nicht ueber den Ressourcen-Manager, weil
- * sie keine Ressource ist, die ein Ressourcenpaket ersetzen soll: die Zuordnung Kurzname zu
- * Zeichen muss zur Schrift im selben Jar passen.
+ * <p>The list is read directly from the mod jar and not via the resource manager, because it isn't
+ * a resource a resource pack should replace: the mapping from short name to character has to match
+ * the font in the same jar.
  */
 public final class Emojis {
 
@@ -26,22 +26,22 @@ public final class Emojis {
     private Emojis() {
     }
 
-    /** Laedt die Emoji-Liste. Bei einem Fehler bleibt der Index leer und die Mod tut nichts. */
+    /** Loads the emoji list. On error the index stays empty and the mod does nothing. */
     public static void load() {
         try (InputStream in = Emojis.class.getResourceAsStream(PATH)) {
             if (in == null) {
-                LOGGER.error("{} fehlt im Mod-Jar", PATH);
+                LOGGER.error("{} is missing from the mod jar", PATH);
                 return;
             }
             BufferedReader reader = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));
             index = new EmojiIndex(reader.lines().toList());
-            LOGGER.info("{} Emojis geladen", index.all().size());
+            LOGGER.info("{} emojis loaded", index.all().size());
         } catch (IOException | RuntimeException e) {
-            LOGGER.error("Emoji-Liste konnte nicht gelesen werden", e);
+            LOGGER.error("Could not read the emoji list", e);
         }
     }
 
-    /** Gibt den Index zurueck, vor {@link #load()} ist er leer. */
+    /** Returns the index; it is empty before {@link #load()}. */
     public static EmojiIndex index() {
         return index;
     }

@@ -18,13 +18,13 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
- * Haengt Emoji-Knopf, Auswahlfenster und Vorschlagsliste an das Chatfenster und wandelt
- * Unicode-Emojis vor dem Senden in Kurzcodes um.
+ * Attaches emoji button, picker and suggestion list to the chat screen and converts Unicode emojis
+ * to shortcodes before sending.
  *
  * <p>{@code init}, {@code onEdited}, {@code keyPressed(KeyEvent)},
- * {@code mouseClicked(MouseButtonEvent, boolean)}, {@code mouseScrolled} und
- * {@code handleChatInput} sind in allen Zielversionen gleich. Nur das Zeichnen heisst bis 1.21.11
- * {@code render(GuiGraphics, ...)} und ab 26.1 {@code extractRenderState(GuiGraphicsExtractor, ...)}.
+ * {@code mouseClicked(MouseButtonEvent, boolean)}, {@code mouseScrolled} and
+ * {@code handleChatInput} are the same in all target versions. Only drawing is called
+ * {@code render(GuiGraphics, ...)} up to 1.21.11 and {@code extractRenderState(GuiGraphicsExtractor, ...)} from 26.1 on.
  */
 @Mixin(ChatScreen.class)
 public abstract class ChatScreenMixin {

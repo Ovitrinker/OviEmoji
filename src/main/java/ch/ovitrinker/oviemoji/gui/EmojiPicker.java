@@ -17,12 +17,11 @@ import net.minecraft.client.input.KeyEvent;
 import net.minecraft.network.chat.Component;
 
 /**
- * Der Emoji-Knopf unten rechts und das Auswahlfenster darueber.
+ * The emoji button at the bottom right and the picker above it.
  *
- * <p>Der Chat und der Schild-Bildschirm benutzen dieselbe Klasse. Was ein Klick auf ein Emoji
- * bewirkt, entscheidet der Bildschirm ueber den mitgegebenen {@code onPick}. Die Lage haengt nur
- * von der Bildschirmgroesse ab: der Knopf sitzt knapp ueber dem Chat-Eingabefeld, auf dem
- * Schild-Bildschirm ist diese Ecke frei.
+ * <p>The chat and the sign screen use the same class. What a click on an emoji does is decided by
+ * the screen via the given {@code onPick}. The position only depends on the screen size: the
+ * button sits just above the chat input field; on the sign screen that corner is free.
  */
 public final class EmojiPicker {
 
@@ -39,9 +38,9 @@ public final class EmojiPicker {
     private static final int BUTTON_WIDTH = 14;
     private static final int BUTTON_HEIGHT = 13;
 
-    /** Reiter: zuerst die zuletzt benutzten, dann die Kategorien. */
+    /** Tabs: recently used first, then the categories. */
     private static final List<String> TABS = new ArrayList<>();
-    /** Das Symbol pro Reiter, als Kurzname. */
+    /** The icon per tab, as a short name. */
     private static final List<String> TAB_ICONS = List.of(
             "clock3", "smiley", "wave", "dog", "hamburger", "car", "soccer", "bulb", "heart", "checkered_flag");
 
@@ -50,7 +49,7 @@ public final class EmojiPicker {
         TABS.addAll(EmojiIndex.CATEGORIES);
     }
 
-    /** Ueberdauert das Schliessen des Bildschirms, damit das Fenster beim naechsten Mal gleich aussieht. */
+    /** Survives closing the screen, so the picker looks the same next time. */
     private static int lastTab = 1;
 
     private final Screen screen;
@@ -61,8 +60,8 @@ public final class EmojiPicker {
     private int scrollRow;
 
     /**
-     * @param screen der Bildschirm, auf dem Knopf und Fenster liegen
-     * @param onPick wird mit dem angeklickten Emoji aufgerufen
+     * @param screen the screen button and picker are on
+     * @param onPick called with the clicked emoji
      */
     public EmojiPicker(Screen screen, Consumer<Emoji> onPick) {
         this.screen = screen;
@@ -77,7 +76,7 @@ public final class EmojiPicker {
         return !Emojis.index().all().isEmpty();
     }
 
-    // ------------------------------------------------------------------ Lage der Elemente
+    // ------------------------------------------------------------------ Layout
 
     private int buttonX() {
         return screen.width - BUTTON_WIDTH - 2;
@@ -117,7 +116,7 @@ public final class EmojiPicker {
         return Math.max(0, rows - ROWS);
     }
 
-    /** Das Emoji unter der Maus im Raster, oder {@code null}. */
+    /** The emoji under the mouse in the grid, or {@code null}. */
     private Emoji gridEmojiAt(double mx, double my) {
         int gx = panelX() + PAD;
         int gy = panelY() + GRID_TOP;
@@ -131,7 +130,7 @@ public final class EmojiPicker {
         return i < list.size() ? list.get(i) : null;
     }
 
-    /** Der Reiter unter der Maus, oder -1. */
+    /** The tab under the mouse, or -1. */
     private int tabAt(double mx, double my) {
         int tx = panelX() + PAD;
         int ty = panelY() + PAD;
@@ -141,15 +140,15 @@ public final class EmojiPicker {
         return (int) ((mx - tx) / CELL);
     }
 
-    // ------------------------------------------------------------------ Zeichnen
+    // ------------------------------------------------------------------ Drawing
 
     /**
-     * Zeichnet Knopf und, falls offen, das Auswahlfenster. Ruft vorher {@code nextStratum} auf,
-     * damit beides ueber dem Text des Bildschirms liegt.
+     * Draws the button and, if open, the picker. Calls {@code nextStratum} first, so both lie
+     * above the screen's text.
      *
-     * @param g  das Zeichenziel
-     * @param mx Mausposition x
-     * @param my Mausposition y
+     * @param g  the draw target
+     * @param mx mouse position x
+     * @param my mouse position y
      */
     public void render(Gfx g, int mx, int my) {
         if (!enabled()) {
@@ -181,7 +180,7 @@ public final class EmojiPicker {
         g.fill(px, py, px + PANEL_WIDTH, py + PANEL_HEIGHT, 0xE8141414);
         g.frame(px, py, px + PANEL_WIDTH, py + PANEL_HEIGHT, 0xFF505050);
 
-        // Reiter
+        // Tabs
         int hoveredTab = tabAt(mx, my);
         for (int i = 0; i < TABS.size(); i++) {
             int x = px + PAD + i * CELL;
@@ -198,7 +197,7 @@ public final class EmojiPicker {
         }
         g.fill(px + PAD, py + GRID_TOP - 2, px + PANEL_WIDTH - PAD, py + GRID_TOP - 1, 0xFF505050);
 
-        // Raster
+        // Grid
         List<Emoji> list = tabEmojis();
         scrollRow = Math.max(0, Math.min(scrollRow, maxScroll()));
         Emoji hovered = gridEmojiAt(mx, my);
@@ -223,7 +222,7 @@ public final class EmojiPicker {
             g.text(font, Component.translatable("oviemoji.picker.empty"), gx + 2, gy + 4, 0xFF909090);
         }
 
-        // Bildlaufleiste
+        // Scrollbar
         int max = maxScroll();
         if (max > 0) {
             int trackHeight = ROWS * CELL;
@@ -234,7 +233,7 @@ public final class EmojiPicker {
             g.fill(sx, thumbTop, sx + 2, thumbTop + thumbHeight, 0xC0FFFFFF);
         }
 
-        // Fusszeile: Kurzcode des Emojis unter der Maus, sonst der Name des Reiters
+        // Footer: shortcode of the emoji under the mouse, otherwise the tab name
         Component footer;
         if (hovered != null) {
             footer = Component.literal(hovered.shortcode());
@@ -246,18 +245,18 @@ public final class EmojiPicker {
         g.text(font, footer, px + PAD + 1, py + FOOTER_TOP, hovered != null ? 0xFFFFFF55 : 0xFFA0A0A0);
     }
 
-    // ------------------------------------------------------------------ Eingabe
+    // ------------------------------------------------------------------ Input
 
     /**
-     * Nimmt einen Mausklick entgegen.
+     * Handles a mouse click.
      *
-     * @return {@code true}, wenn der Klick hier verbraucht wurde
+     * @return {@code true} if the click was consumed here
      */
     public boolean mouseClicked(double mx, double my, int button) {
         if (!enabled()) {
             return false;
         }
-        // Die Nummer der linken Maustaste ist nicht fest: 0 bis 26.2 (GLFW), 1 ab 26.3 (SDL3)
+        // The left mouse button's number isn't fixed: 0 up to 26.2 (GLFW), 1 from 26.3 on (SDL3)
         if (button != InputConstants.MOUSE_BUTTON_LEFT) {
             return overPanel(mx, my) || overButton(mx, my);
         }
@@ -284,9 +283,9 @@ public final class EmojiPicker {
     }
 
     /**
-     * Nimmt das Mausrad entgegen.
+     * Handles the mouse wheel.
      *
-     * @return {@code true}, wenn das Rad hier verbraucht wurde
+     * @return {@code true} if the scroll was consumed here
      */
     public boolean mouseScrolled(double mx, double my, double amount) {
         if (overPanel(mx, my)) {
@@ -299,9 +298,9 @@ public final class EmojiPicker {
     }
 
     /**
-     * Escape schliesst zuerst das offene Fenster und erst beim zweiten Mal den Bildschirm.
+     * Escape closes the open picker first and the screen only on the second press.
      *
-     * @return {@code true}, wenn die Taste hier verbraucht wurde
+     * @return {@code true} if the key was consumed here
      */
     public boolean keyPressed(KeyEvent event) {
         if (open && event.isEscape()) {

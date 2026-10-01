@@ -18,17 +18,16 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
- * Setzt den Emoji-Knopf samt Auswahlfenster auf den Bildschirm zum Beschriften von Schildern und
- * Haengeschildern.
+ * Puts the emoji button and picker on the screen for writing on signs and hanging signs.
  *
- * <p>Eine Schildzeile ist nur etwa 90 Pixel breit. Darum wird der kuerzeste Kurzname eingefuegt,
- * also {@code :+1:} statt {@code :thumbsup:}. Passt auch der nicht mehr, laesst Minecrafts
- * Breitenpruefung die Eingabe fallen und die Zeile bleibt, wie sie war.
+ * <p>A sign line is only about 90 pixels wide. That's why the shortest short name is inserted,
+ * i.e. {@code :+1:} instead of {@code :thumbsup:}. If even that doesn't fit, Minecraft's width
+ * check drops the input and the line stays as it was.
  *
- * <p>{@code AbstractSignEditScreen} ueberschreibt {@code mouseClicked} und {@code mouseScrolled}
- * nicht, deshalb erweitert dieses Mixin {@link Screen} und ueberschreibt beide selbst.
- * {@code keyPressed} und das Zeichnen gibt es in der Klasse und werden per {@code @Inject}
- * ergaenzt; das Zeichnen heisst bis 1.21.11 {@code render}, ab 26.1 {@code extractRenderState}.
+ * <p>{@code AbstractSignEditScreen} doesn't override {@code mouseClicked} and
+ * {@code mouseScrolled}, so this mixin extends {@link Screen} and overrides both itself.
+ * {@code keyPressed} and drawing exist in the class and are extended via {@code @Inject}; drawing
+ * is called {@code render} up to 1.21.11 and {@code extractRenderState} from 26.1 on.
  */
 @Mixin(AbstractSignEditScreen.class)
 public abstract class SignEditScreenMixin extends Screen {

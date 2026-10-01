@@ -1,14 +1,14 @@
-"""Erzeugt die Grafiken des Mods im Terminal-Look von mods.ovitrinker.ch.
+"""Generates the mod's graphics in the terminal look of mods.ovitrinker.ch.
 
-Geschrieben werden zwei Dateien aus derselben Zeichnung:
-  src/main/resources/assets/oviemoji/icon.png   128x128, liegt im Jar
-  branding/oviemoji-logo.png                    512x512, Projektbild fuer CurseForge und Modrinth
+Two files are written from the same drawing:
+  src/main/resources/assets/oviemoji/icon.png   128x128, included in the jar
+  branding/oviemoji-logo.png                    512x512, project image for CurseForge and Modrinth
 
-Hintergrund, Raster und Rahmen sind dieselben wie beim OviClicker-Icon. Darauf sitzt eine
-gruene Chat-Sprechblase mit einem gelben Smiley. Der Smiley ist selbst gezeichnet und
-nicht aus Twemoji uebernommen, damit das Logo frei von fremden Grafiken ist.
+Background, grid and frame are the same as in the OviClicker icon. On top sits a green chat
+bubble with a yellow smiley. The smiley is drawn from scratch and not taken from Twemoji, so
+the logo is free of third-party graphics.
 
-Aufruf:  python tools/make_icon.py
+Usage:  python tools/make_icon.py
 """
 
 from pathlib import Path
@@ -32,7 +32,7 @@ TARGETS = [
 
 
 class Canvas:
-    """Zeichenflaeche, die im 128er-Raster rechnet und ueberabgetastet zeichnet."""
+    """Canvas that calculates in the 128 grid and draws supersampled."""
 
     def __init__(self, size: int, supersample: int) -> None:
         self.side = size * supersample
@@ -58,7 +58,7 @@ class Canvas:
 
 
 def draw_background(c: Canvas) -> None:
-    """Schwarzer Grund mit angedeutetem Terminal-Raster."""
+    """Black background with a subtle terminal grid."""
     d = c.draw()
     for i in range(8, GRID, 16):
         d.line([(c.px(i), 0), (c.px(i), c.side)], fill=GREEN_DARK, width=c.width(0.5))
@@ -66,7 +66,7 @@ def draw_background(c: Canvas) -> None:
 
 
 def draw_frame(c: Canvas) -> None:
-    """Duenner gruener Rahmen mit Eckmarken, wie ein Terminalfenster."""
+    """Thin green frame with corner marks, like a terminal window."""
     d = c.draw()
     inset, corner = c.px(6), c.px(22)
     far = c.side - inset
@@ -85,10 +85,10 @@ def draw_frame(c: Canvas) -> None:
 
 
 def draw_bubble(c: Canvas) -> None:
-    """Chat-Sprechblase mit Zipfel unten links.
+    """Chat bubble with a tail at the bottom left.
 
-    Erst wird die ganze Form gruen gefuellt, dann die um die Randbreite kleinere Form dunkel
-    darueber gelegt. So entsteht ein durchgehender Rand ohne Naht zwischen Blase und Zipfel.
+    First the whole shape is filled green, then the shape shrunk by the border width is laid
+    over it in dark. That gives a continuous border without a seam between bubble and tail.
     """
     d = c.draw()
     edge = 3
@@ -100,7 +100,7 @@ def draw_bubble(c: Canvas) -> None:
 
 
 def draw_smiley(c: Canvas) -> None:
-    """Gelber Smiley mitten in der Blase."""
+    """Yellow smiley in the middle of the bubble."""
     d = c.draw()
     cx, cy, r = 64, 59, 25
     d.ellipse(c.box(cx - r, cy - r, cx + r, cy + r), fill=YELLOW)
@@ -117,7 +117,7 @@ def render(path: Path, size: int) -> None:
     draw_bubble(c)
     draw_smiley(c)
     c.finish(path)
-    print("geschrieben: %s (%dx%d)" % (path, size, size))
+    print("written: %s (%dx%d)" % (path, size, size))
 
 
 def main() -> None:

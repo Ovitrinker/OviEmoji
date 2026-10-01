@@ -14,11 +14,11 @@ import net.minecraft.client.input.KeyEvent;
 import net.minecraft.network.chat.Component;
 
 /**
- * Der Emoji-Teil des Chatfensters: das Auswahlfenster ({@link EmojiPicker}) und die
- * Vorschlagsliste beim Tippen von {@code :name}.
+ * The emoji part of the chat screen: the picker ({@link EmojiPicker}) and the suggestion list
+ * while typing {@code :name}.
  *
- * <p>Beides fuegt nur Kurzcodes wie {@code :smile:} in das Eingabefeld ein. Was im Chat daraus
- * wird, entscheidet allein der Empfaenger: mit Mod ein Bild, ohne Mod der lesbare Kurzcode.
+ * <p>Both only insert shortcodes like {@code :smile:} into the input field. What they become in
+ * chat is decided by the receiver alone: an image with the mod, the readable shortcode without.
  */
 public final class EmojiChatUi {
 
@@ -32,12 +32,12 @@ public final class EmojiChatUi {
     private List<EmojiIndex.Suggestion> suggestions = List.of();
     private int selected;
     private int tokenStart = -1;
-    /** Nach Escape bleiben die Vorschlaege weg, bis sich die Eingabe aendert. */
+    /** After Escape the suggestions stay hidden until the input changes. */
     private String dismissedFor;
 
     /**
-     * @param screen der Chatbildschirm
-     * @param input  sein Eingabefeld
+     * @param screen the chat screen
+     * @param input  its input field
      */
     public EmojiChatUi(Screen screen, EditBox input) {
         this.screen = screen;
@@ -46,8 +46,7 @@ public final class EmojiChatUi {
     }
 
     /**
-     * Uebernimmt das neue Eingabefeld, das der Chat bei jeder Groessenaenderung neu anlegt. Das
-     * Auswahlfenster bleibt dabei offen.
+     * Takes over the new input field the chat creates on every resize. The picker stays open.
      */
     public void rebind(EditBox input) {
         this.input = input;
@@ -80,14 +79,14 @@ public final class EmojiChatUi {
         return screen.height - 14 - suggestions.size() * SUGGESTION_HEIGHT - 2;
     }
 
-    // ------------------------------------------------------------------ Zeichnen
+    // ------------------------------------------------------------------ Drawing
 
     /**
-     * Zeichnet Knopf, Auswahlfenster und Vorschlaege ueber den Chat.
+     * Draws button, picker and suggestions over the chat.
      *
-     * @param g  das Zeichenziel
-     * @param mx Mausposition x
-     * @param my Mausposition y
+     * @param g  the draw target
+     * @param mx mouse position x
+     * @param my mouse position y
      */
     public void render(Gfx g, int mx, int my) {
         g.nextStratum();
@@ -116,12 +115,12 @@ public final class EmojiChatUi {
         }
     }
 
-    // ------------------------------------------------------------------ Eingabe
+    // ------------------------------------------------------------------ Input
 
     /**
-     * Nimmt einen Mausklick entgegen.
+     * Handles a mouse click.
      *
-     * @return {@code true}, wenn der Klick hier verbraucht wurde
+     * @return {@code true} if the click was consumed here
      */
     public boolean mouseClicked(double mx, double my, int button) {
         if (!suggestions.isEmpty()) {
@@ -136,22 +135,22 @@ public final class EmojiChatUi {
     }
 
     /**
-     * Nimmt das Mausrad entgegen.
+     * Handles the mouse wheel.
      *
-     * @return {@code true}, wenn das Rad hier verbraucht wurde
+     * @return {@code true} if the scroll was consumed here
      */
     public boolean mouseScrolled(double mx, double my, double amount) {
         return picker.mouseScrolled(mx, my, amount);
     }
 
     /**
-     * Nimmt einen Tastendruck entgegen, bevor der Chat ihn sieht.
+     * Handles a key press before the chat sees it.
      *
-     * <p>Solange Vorschlaege offen sind, gehoeren Pfeil hoch/runter, Tab, Enter und Escape der
-     * Vorschlagsliste. Enter setzt also den Vorschlag ein und schickt noch nichts ab. Ist nur das
-     * Auswahlfenster offen, schliesst Escape zuerst das Fenster und erst beim zweiten Mal den Chat.
+     * <p>While suggestions are open, arrow up/down, Tab, Enter and Escape belong to the suggestion
+     * list. So Enter inserts the suggestion and doesn't send anything yet. If only the picker is
+     * open, Escape closes the picker first and the chat only on the second press.
      *
-     * @return {@code true}, wenn die Taste hier verbraucht wurde
+     * @return {@code true} if the key was consumed here
      */
     public boolean keyPressed(KeyEvent event) {
         if (!suggestions.isEmpty()) {
@@ -176,17 +175,17 @@ public final class EmojiChatUi {
         return picker.keyPressed(event);
     }
 
-    /** Wird nach jeder Aenderung im Eingabefeld aufgerufen. */
+    /** Called after every change in the input field. */
     public void onEdited() {
         updateSuggestions();
     }
 
     /**
-     * Sucht vor der Schreibmarke nach einem angefangenen Kurzcode.
+     * Looks for a started shortcode before the cursor.
      *
-     * <p>Er muss am Anfang oder nach einem Leerzeichen stehen und mindestens zwei Zeichen haben,
-     * damit etwa eine Uhrzeit wie {@code 12:30} keine Vorschlaege aufklappt. In Befehlen bleibt die
-     * Liste aus, dort hat Minecrafts eigene Befehlsergaenzung Vorrang.
+     * <p>It has to be at the start or after a space and have at least two characters, so that a
+     * time like {@code 12:30} doesn't open any suggestions. In commands the list stays off;
+     * Minecraft's own command completion takes priority there.
      */
     private void updateSuggestions() {
         String value = input.getValue();
@@ -220,7 +219,7 @@ public final class EmojiChatUi {
                 || c == '_' || c == '+' || c == '-';
     }
 
-    /** Ersetzt den angefangenen Kurzcode durch den gewaehlten Vorschlag. */
+    /** Replaces the started shortcode with the selected suggestion. */
     private void accept(int index) {
         if (index < 0 || index >= suggestions.size() || tokenStart < 0) {
             return;
